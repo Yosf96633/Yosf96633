@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3ECF8E&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B+I'm+Yousaf+Ahmed;Full+Stack+Developer;AI+Enthusiast;Building+the+Future+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=3ECF8E&center=true&vCenter=true&random=false&width=600&lines=Hi+%F0%9F%91%8B+I'm+Yousaf;Full+Stack+Developer;AI+Enthusiast;Building+the+Future+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -210,15 +210,6 @@ const yousaf = {
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yosf96633&custom_title=Yousaf's%20Contribution%20Graph&hide_border=true&bg_color=0D1117&color=3ECF8E&line=3ECF8E&point=FFFFFF&area=true&area_color=3ECF8E" alt="Contribution Graph" width="100%"/>
 </div>
 
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Yosf96633/Yosf96633/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-</div>
-
----
 
 <div align="center">
   
