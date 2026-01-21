@@ -23,9 +23,9 @@ const yousaf = {
   mantra: "Consistency beats talent—so I show up every day 💪",
   
   currentProjects: {
-    vidspire: "YouTube Sentiment Analysis Platform",
+    vidly: "YouTube Sentiment Analysis Platform",
     cambot: "AI-Powered Chatbot",
-    betterAuth: "Production-ready Authentication System"
+    betterAuthStarter: "Production-ready Authentication System"
   },
   
   askMeAbout: [
@@ -33,7 +33,9 @@ const yousaf = {
     "AI Integration",
     "Next.js & React",
     "Database Design",
-    "Authentication Systems"
+    "Authentication Systems",
+    "System Design",
+    "Distributed Systems",
   ],
   
   funFact: "I turn coffee into code ☕️ → 💻"
