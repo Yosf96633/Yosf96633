@@ -5,8 +5,51 @@
 <br/>
 
 ```
-$ whoami
+yousaf@dev:~$ neofetch
 ```
+
+<table>
+<tr>
+<td valign="top">
+
+```
+        _nnnn_
+       dGGGGMMb
+      @p~qp~~qMb
+      M|@||@) M|
+      @,----.JM|
+     JS^\__/  qKL
+    dZP        qKRb
+   dZP          qKKb
+  fZP            SMMb
+  HZM            MMMM
+  FqM            MMMM
+__| ".        |\dS"qML
+|    `.       | `' \Zq
+_)      \.___.,|     .'
+\____   )MMMMMP|   .'
+     `-'       `--'
+```
+
+</td>
+<td valign="top">
+
+```
+yousaf@dev
+-----------
+OS:        Linux x86_64
+Host:      Full-Stack + AI Systems Engineer
+Shell:     zsh
+Editor:    VS Code
+Languages: TypeScript, Python, JavaScript
+Stack:     Next.js · FastAPI · LangGraph
+Focus:     Autonomous agents, RAG pipelines
+Uptime:    shipping since 2021
+```
+
+</td>
+</tr>
+</table>
 
 <h1 align="center">Muhammad Yousaf</h1>
 <p align="center">
@@ -45,25 +88,37 @@ Parse the problem → gather context → let the model reason → generate → p
 
 <br/>
 
-### `$ cat mission.txt`
-
-```
-Building autonomous agents and RAG systems that go past the demo stage
-and hold up in production. Consistency beats talent — I show up every day.
-```
-
-<br/>
-
 ## stack
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,py,react,nextjs,redux,tailwind,nodejs,express,fastapi,mongodb,postgres,redis,docker,git,github,vercel,figma&theme=dark&perline=9"/>
+<img src="https://skillicons.dev/icons?i=linux,js,ts,py,react,nextjs,redux,tailwind,nodejs,express,fastapi,mongodb,postgres,redis,docker,git,github,vercel,figma&theme=dark&perline=9"/>
 </div>
 
 <br/>
 
-**AI / automation** &nbsp;·&nbsp; LangChain · LangGraph · OpenAI API · Groq · Cohere Rerank · Qdrant · n8n · RAG · MCP
-**Auth & tooling** &nbsp;·&nbsp; NextAuth · Better Auth · JWT · Drizzle ORM · Mongoose · Zod · Postman
+<div align="center">
+
+**AI / automation**
+
+<img src="https://img.shields.io/badge/OpenAI-0B0E14?style=flat-square&logo=openai&logoColor=74AA9C&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/LangChain-0B0E14?style=flat-square&logo=langchain&logoColor=C792EA&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/LangGraph-0B0E14?style=flat-square&logo=graphql&logoColor=F5A623&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/Groq-0B0E14?style=flat-square&logo=lightning&logoColor=F5A623&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/Cohere-0B0E14?style=flat-square&logo=cohere&logoColor=E6E6E6&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/Qdrant-0B0E14?style=flat-square&logo=qdrant&logoColor=C792EA&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/n8n-0B0E14?style=flat-square&logo=n8n&logoColor=F5A623&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/RAG-0B0E14?style=flat-square&labelColor=0B0E14&color=0B0E14"/>
+<img src="https://img.shields.io/badge/MCP-0B0E14?style=flat-square&labelColor=0B0E14&color=0B0E14"/>
+
+**auth & tooling**
+
+<img src="https://img.shields.io/badge/NextAuth-0B0E14?style=flat-square&labelColor=0B0E14&color=0B0E14"/>
+<img src="https://img.shields.io/badge/JWT-0B0E14?style=flat-square&logo=jsonwebtokens&logoColor=C792EA&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/Drizzle-0B0E14?style=flat-square&logo=drizzle&logoColor=F5A623&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/Zod-0B0E14?style=flat-square&logo=zod&logoColor=E6E6E6&labelColor=0B0E14"/>
+<img src="https://img.shields.io/badge/Postman-0B0E14?style=flat-square&logo=postman&logoColor=F5A623&labelColor=0B0E14"/>
+
+</div>
 
 <br/>
 
@@ -114,32 +169,25 @@ Dual LangGraph workflows for ingestion and RAG chat. Hybrid dense + sparse vecto
 
 <br/>
 
-## `$ cat education.md`
-
-```
-BS Computer Science           Government College University Faisalabad     2021 – 2025
-FSc Pre-Engineering           Royal College of Science, Narowal            2019 – 2021
-```
-
-<br/>
-
 ## stats
 
 <div align="center">
 <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Yosf96633&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0E14&title_color=C792EA&icon_color=F5A623&text_color=E6E6E6"/>
-<img width="49%" src="https://nirzak-streak-stats.vercel.app/?user=Yosf96633&theme=tokyonight&hide_border=true&background=0B0E14&ring=C792EA&fire=F5A623&currStreakLabel=C792EA"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=Yosf96633&theme=tokyonight&hide_border=true&background=0B0E14&ring=C792EA&fire=F5A623&currStreakLabel=C792EA"/>
 </div>
 
 <div align="center">
 <img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yosf96633&theme=tokyo-night&hide_border=true&bg_color=0B0E14&color=C792EA&line=C792EA&point=F5A623"/>
 </div>
 
+> these three widgets are served from free, shared community instances — GitHub's image proxy occasionally can't reach them and you'll see a broken-image icon. It's not your README; refreshing the page usually fixes it. If it keeps happening, forking `anuraghazra/github-readme-stats` to your own Vercel account gives you a dedicated instance that won't rate-limit.
+
 <br/>
 
 <div align="center">
 
 ```
-$ echo "let's build something" | mail yousaf.dev18@gmail.com
+yousaf@dev:~$ echo "let's build something" | mail yousaf.dev18@gmail.com
 ```
 
 <a href="https://linkedin.com/in/yousaf-dev18/"><img src="https://img.shields.io/badge/linkedin-0B0E14?style=flat-square&logo=linkedin&logoColor=C792EA&labelColor=0B0E14"/></a>
