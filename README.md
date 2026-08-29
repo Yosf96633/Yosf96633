@@ -100,23 +100,15 @@ Parse the problem → gather context → let the model reason → generate → p
 
 **AI / automation**
 
-<img src="https://img.shields.io/badge/OpenAI-0B0E14?style=flat-square&logo=openai&logoColor=74AA9C&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/LangChain-0B0E14?style=flat-square&logo=langchain&logoColor=C792EA&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/LangGraph-0B0E14?style=flat-square&logo=graphql&logoColor=F5A623&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/Groq-0B0E14?style=flat-square&logo=lightning&logoColor=F5A623&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/Cohere-0B0E14?style=flat-square&logo=cohere&logoColor=E6E6E6&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/Qdrant-0B0E14?style=flat-square&logo=qdrant&logoColor=C792EA&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/n8n-0B0E14?style=flat-square&logo=n8n&logoColor=F5A623&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/RAG-0B0E14?style=flat-square&labelColor=0B0E14&color=0B0E14"/>
-<img src="https://img.shields.io/badge/MCP-0B0E14?style=flat-square&labelColor=0B0E14&color=0B0E14"/>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=chatgpt,langchain,groq,qdrant,mcp,huggingface,tensorflow&theme=dark"/>
+
+<sub>also in the toolbox: n8n · Cohere Rerank · RAG pipelines</sub>
 
 **auth & tooling**
 
-<img src="https://img.shields.io/badge/NextAuth-0B0E14?style=flat-square&labelColor=0B0E14&color=0B0E14"/>
-<img src="https://img.shields.io/badge/JWT-0B0E14?style=flat-square&logo=jsonwebtokens&logoColor=C792EA&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/Drizzle-0B0E14?style=flat-square&logo=drizzle&logoColor=F5A623&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/Zod-0B0E14?style=flat-square&logo=zod&logoColor=E6E6E6&labelColor=0B0E14"/>
-<img src="https://img.shields.io/badge/Postman-0B0E14?style=flat-square&logo=postman&logoColor=F5A623&labelColor=0B0E14"/>
+<img src="https://go-skill-icons.vercel.app/api/icons?i=authjs,playwright&theme=dark"/>
+
+<sub>also in the toolbox: JWT · Drizzle ORM · Zod · Postman</sub>
 
 </div>
 
@@ -172,12 +164,12 @@ Dual LangGraph workflows for ingestion and RAG chat. Hybrid dense + sparse vecto
 ## stats
 
 <div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Yosf96633&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0E14&title_color=C792EA&icon_color=F5A623&text_color=E6E6E6"/>
-<img width="49%" src="https://streak-stats.demolab.com?user=Yosf96633&theme=tokyonight&hide_border=true&background=0B0E14&ring=C792EA&fire=F5A623&currStreakLabel=C792EA"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Yosf96633&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0E14"/>
+<img width="49%" src="https://streak-stats.demolab.com?user=Yosf96633&theme=tokyonight&hide_border=true&background=0B0E14"/>
 </div>
 
 <div align="center">
-<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yosf96633&theme=tokyo-night&hide_border=true&bg_color=0B0E14&color=C792EA&line=C792EA&point=F5A623"/>
+<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yosf96633&theme=tokyo-night&hide_border=true&bg_color=0B0E14"/>
 </div>
 
 > these three widgets are served from free, shared community instances — GitHub's image proxy occasionally can't reach them and you'll see a broken-image icon. It's not your README; refreshing the page usually fixes it. If it keeps happening, forking `anuraghazra/github-readme-stats` to your own Vercel account gives you a dedicated instance that won't rate-limit.
