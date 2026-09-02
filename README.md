@@ -42,7 +42,7 @@ Host:      Full-Stack + AI Systems Engineer
 Shell:     zsh
 Editor:    VS Code
 Languages: TypeScript, Python, JavaScript
-Stack:     Next.js · FastAPI · LangGraph
+Stack:     Next.js · Nest.js · FastAPI · LangGraph
 Focus:     Autonomous agents, RAG pipelines
 Uptime:    shipping since 2021
 ```
