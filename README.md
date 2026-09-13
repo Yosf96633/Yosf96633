@@ -1,191 +1,141 @@
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0B0E14,100:0B0E14&height=2&section=header" width="100%"/>
-</div>
-
-<br/>
-
-```
-yousaf@dev:~$ neofetch
-```
-
-<table>
-<tr>
-<td valign="top">
-
-```
-        _nnnn_
-       dGGGGMMb
-      @p~qp~~qMb
-      M|@||@) M|
-      @,----.JM|
-     JS^\__/  qKL
-    dZP        qKRb
-   dZP          qKKb
-  fZP            SMMb
-  HZM            MMMM
-  FqM            MMMM
-__| ".        |\dS"qML
-|    `.       | `' \Zq
-_)      \.___.,|     .'
-\____   )MMMMMP|   .'
-     `-'       `--'
-```
-
-</td>
-<td valign="top">
-
-```
-yousaf@dev
------------
-OS:        Linux x86_64
-Host:      Full-Stack + AI Systems Engineer
-Shell:     zsh
-Editor:    VS Code
-Languages: TypeScript, Python, JavaScript
-Stack:     Next.js · Nest.js · FastAPI · LangGraph
-Focus:     Autonomous agents, RAG pipelines
-Uptime:    shipping since 2021
-```
-
-</td>
-</tr>
-</table>
-
-<h1 align="center">Muhammad Yousaf</h1>
-<p align="center">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&pause=1200&color=C792EA&center=true&vCenter=true&width=600&lines=full-stack+developer+%2F%2F+MERN+%2B+Next.js;AI+systems+engineer+%2F%2F+LangGraph+%2B+RAG;builds+agents+that+ship+to+production" alt="Typing SVG"/>
-</p>
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset=".github/assets/terminal-mobile.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/terminal-header.svg">
+  <source media="(max-width: 600px)" srcset=".github/assets/terminal-mobile.gif">
+  <img src=".github/assets/terminal-header.gif" width="100%" alt="Muhammad Yousaf — Full-Stack + AI Systems Engineer. Linux, TypeScript, Python, Next.js, NestJS, FastAPI, LangGraph and RAG.">
+</picture>
 
 <p align="center">
-<a href="https://linkedin.com/in/yousaf-dev18/"><img src="https://img.shields.io/badge/linkedin-0B0E14?style=flat-square&logo=linkedin&logoColor=C792EA&labelColor=0B0E14"/></a>
-<a href="mailto:yousaf.dev18@gmail.com"><img src="https://img.shields.io/badge/email-0B0E14?style=flat-square&logo=gmail&logoColor=F5A623&labelColor=0B0E14"/></a>
-<a href="https://yousaf-dev18.vercel.app/"><img src="https://img.shields.io/badge/portfolio-0B0E14?style=flat-square&logo=vercel&logoColor=E6E6E6&labelColor=0B0E14"/></a>
-<img src="https://komarev.com/ghpvc/?username=Yosf96633&style=flat-square&color=0B0E14&label=views"/>
+  <a href="https://github.com/Yosf96633/Autohunt">AutoHunt</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Yosf96633/DocsAI">DocsAI</a> &nbsp; / &nbsp;
+  <a href="https://yousaf-dev18.vercel.app/">Portfolio</a> &nbsp; / &nbsp;
+  <a href="https://linkedin.com/in/yousaf-dev18/">LinkedIn</a> &nbsp; / &nbsp;
+  <a href="mailto:yousaf.dev18@gmail.com">Email</a>
 </p>
 
-<br/>
+## `$ whoami`
 
-### `$ cat pipeline.log` — how I build things
+I'm **Muhammad Yousaf**, a **Full-Stack + AI Systems Engineer**. I build web applications and AI workflows that retrieve context, reason over it, call tools, and return control to a human before taking action.
 
-The last thing I shipped was a 10-stage LangGraph agent. This is roughly how I think:
+Most of my work sits between backend architecture, Linux terminals, and agent workflows: the interface people use, the services behind it, and the decisions a model makes along the way.
 
-```
-┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐   ┌──────────┐
-│  PARSE   │──▶│  SCRAPE  │──▶│  SCORE   │──▶│ GENERATE │──▶│  REVIEW  │
-│  input   │   │  sources │   │ (LLM)    │   │ (LLM)    │   │  (human) │
-└──────────┘   └──────────┘   └──────────┘   └────┬─────┘   └────┬─────┘
-                                                    │              │
-                                                    └──────────────┘
-                                                  self-critique loop
-                                                         │
-                                                         ▼
-                                                  ┌──────────────┐
-                                                  │    SHIP IT   │
-                                                  └──────────────┘
+```toml
+# ~/.config/yousaf/profile.toml
+shell = "zsh"
+editor = "VS Code"
+focus = "Full-stack AI engineering"
+building = ["AI agents", "RAG pipelines"]
 ```
 
-Parse the problem → gather context → let the model reason → generate → put a human in the loop → refine → ship. Same shape whether it's a job-application agent or a legal-doc assistant.
+## `$ ls ~/projects`
 
-<br/>
+### [AutoHunt](https://github.com/Yosf96633/Autohunt)
 
-## stack
+**An AI job-application agent with a human approval gate.**
 
-<div align="center">
-<img src="https://skillicons.dev/icons?i=linux,js,ts,py,react,nextjs,redux,tailwind,nodejs,express,fastapi,mongodb,postgres,redis,docker,git,github,vercel,figma&theme=dark&perline=9"/>
-</div>
+`LangGraph` · `Playwright` · `Next.js 16` · `PostgreSQL`
 
-<br/>
+A ten-stage workflow that parses a CV, discovers jobs, scores relevance, and drafts cover letters. A self-critique loop refines the draft; human review comes before browser-driven submission.
 
-<div align="center">
+**Engineering focus:** orchestration, browser tools, iterative generation, and explicit control over when the agent acts.
 
-**AI / automation**
+[Explore the repository →](https://github.com/Yosf96633/Autohunt)
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=chatgpt,langchain,groq,qdrant,mcp,huggingface,tensorflow&theme=dark"/>
+### [DocsAI](https://github.com/Yosf96633/DocsAI)
 
-<sub>also in the toolbox: n8n · Cohere Rerank · RAG pipelines</sub>
+**A legal-document assistant built around retrieval and citations.**
 
-**auth & tooling**
+`FastAPI` · `LangGraph` · `Qdrant` · `Cohere`
 
-<img src="https://go-skill-icons.vercel.app/api/icons?i=authjs,playwright&theme=dark"/>
+Separate ingestion and conversational workflows combine dense and sparse retrieval with Cohere reranking. Position-aware chunks preserve page references for citation-grounded answers.
 
-<sub>also in the toolbox: JWT · Drizzle ORM · Zod · Postman</sub>
+**Engineering focus:** retrieval quality, document structure, and answers that can be traced back to their sources.
 
-</div>
+[Explore the repository →](https://github.com/Yosf96633/DocsAI)
 
-<br/>
+<details>
+<summary><strong>More in ~/projects</strong></summary>
 
-## `$ ls -la ~/projects`
+| Project | What it does |
+| :--- | :--- |
+| **Vidspire** | YouTube sentiment analysis platform. |
+| **CamBot** | AI-powered conversational chatbot. |
+| **Better Auth Starter** | Authentication implementation with OAuth and two-factor authentication. |
 
-```bash
-drwxr-xr-x  autohunt/               # autonomous AI job-application agent — 10-stage LangGraph pipeline
-drwxr-xr-x  docsai/                 # legal-document RAG assistant — hybrid search + citation grounding
-drwxr-xr-x  vidspire/               # YouTube sentiment analysis platform
-drwxr-xr-x  cambot/                 # AI-powered conversational chatbot
-drwxr-xr-x  better-auth-starter/    # production-ready auth boilerplate — OAuth, 2FA
-```
+[Browse my repositories →](https://github.com/Yosf96633?tab=repositories)
 
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
+</details>
 
-**🤖 AutoHunt** — `LangGraph · Playwright · Next.js 16 · PostgreSQL`
-Ten-stage workflow: parses your CV, scrapes job boards, scores relevance with an LLM, drafts cover letters with a self-critique refinement loop, then pauses for human review before Playwright submits anything.
+## `$ cat pipeline.log`
 
-[`→ github.com/Yosf96633/Autohunt`](https://github.com/Yosf96633/Autohunt)
+Start with the problem and the available context. Give each node a clear responsibility. Refine generated output, make review explicit, and keep consequential actions behind approval.
 
-</td>
-<td width="50%" valign="top">
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/pipeline.svg">
+    <img src=".github/assets/pipeline.gif" width="480" alt="Simplified AutoHunt flow: parse CV, discover jobs, score relevance, draft, critique, human review, then submit. Critique can return to drafting. Submission requires approval.">
+  </picture>
+</p>
 
-**⚖️ DocsAI** — `FastAPI · LangGraph · Qdrant · Cohere`
-Dual LangGraph workflows for ingestion and RAG chat. Hybrid dense + sparse vector search, reranked with Cohere, chunked with position-awareness so every answer cites the exact page it came from.
+Shared state connects the steps, conditional edges handle revision, and tool calls connect reasoning to action.
 
-[`→ github.com/Yosf96633/DocsAI`](https://github.com/Yosf96633/DocsAI)
+## `$ cat ~/.config/stack.toml`
 
-</td>
-</tr>
-</table>
+| Layer | Tools |
+| :--- | :--- |
+| **Languages** | TypeScript · Python · JavaScript |
+| **Frontend** | Next.js · React · Redux · Tailwind CSS · shadcn/ui |
+| **Backend** | NestJS · FastAPI · Node.js · Express |
+| **Data** | PostgreSQL · MongoDB · Redis · Qdrant · Drizzle ORM |
+| **AI & automation** | LangGraph · LangChain · RAG · MCP · n8n · Cohere Rerank |
+| **Auth & validation** | Better Auth · Auth.js · JWT · Zod |
+| **Infrastructure & tools** | Linux · Docker · Git · Vercel · Playwright · Postman · Figma |
 
-<br/>
+## `$ git log --author="Muhammad Yousaf"`
 
-## `$ git log --oneline --author=yousaf`
+### `2025-10 → 2026-04` · Frontend Developer
 
-```
-* Oct 2025 — Apr 2026   Frontend Developer, Mozzine Technologies
-│                        built B2B SaaS dashboard UI · Next.js/TS/Tailwind
-│                        20+ Figma designs → pixel-perfect ShadCN components
-│
-* Jul 2025 — Sep 2025    Full Stack Intern, Code Expert
-                         multi-vendor e-commerce platform · 2 role-based dashboards
-                         15+ REST endpoints · 40% faster queries via Mongoose indexing
-```
+**Mozzine Technologies**
 
-<br/>
+- Built B2B SaaS dashboard interfaces with Next.js, TypeScript, and Tailwind CSS.
+- Translated **20+ Figma designs** into UI components with shadcn/ui.
 
-## stats
+### `2025-07 → 2025-09` · Full Stack Intern
 
-<div align="center">
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Yosf96633&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0B0E14"/>
-<img width="49%" src="https://streak-stats.demolab.com?user=Yosf96633&theme=tokyonight&hide_border=true&background=0B0E14"/>
-</div>
+**Code Expert**
 
-<div align="center">
-<img width="70%" src="https://github-readme-activity-graph.vercel.app/graph?username=Yosf96633&theme=tokyo-night&hide_border=true&bg_color=0B0E14"/>
-</div>
+- Worked on a multi-vendor e-commerce platform with **two role-based dashboards**.
+- Built **15+ REST endpoints** and optimized queries with Mongoose indexing.
 
-> these three widgets are served from free, shared community instances — GitHub's image proxy occasionally can't reach them and you'll see a broken-image icon. It's not your README; refreshing the page usually fixes it. If it keeps happening, forking `anuraghazra/github-readme-stats` to your own Vercel account gives you a dedicated instance that won't rate-limit.
+## `$ cat ~/notes/engineering.md`
 
-<br/>
+I'm going deeper into the parts that make these systems dependable:
 
-<div align="center">
+- **Agent design:** explicit state, conditional routing, persistence, and human review.
+- **Retrieval:** hybrid search, reranking, and evaluation against source documents.
+- **Backend architecture:** clear boundaries, authentication, and authorization.
+- **Linux fundamentals:** processes, permissions, services, and how software runs underneath the framework.
 
-```
-yousaf@dev:~$ echo "let's build something" | mail yousaf.dev18@gmail.com
-```
+## `$ git shortlog -sn`
 
-<a href="https://linkedin.com/in/yousaf-dev18/"><img src="https://img.shields.io/badge/linkedin-0B0E14?style=flat-square&logo=linkedin&logoColor=C792EA&labelColor=0B0E14"/></a>
-<a href="mailto:yousaf.dev18@gmail.com"><img src="https://img.shields.io/badge/email-0B0E14?style=flat-square&logo=gmail&logoColor=F5A623&labelColor=0B0E14"/></a>
-<a href="https://yousaf-dev18.vercel.app/"><img src="https://img.shields.io/badge/portfolio-0B0E14?style=flat-square&logo=vercel&logoColor=E6E6E6&labelColor=0B0E14"/></a>
+[Repositories](https://github.com/Yosf96633?tab=repositories) · [GitHub activity](https://github.com/Yosf96633)
 
-<br/><br/>
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0B0E14,100:0B0E14&height=2&section=footer" width="100%"/>
-</div>
+<details>
+<summary>Optional telemetry · GitHub stats</summary>
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Yosf96633&amp;show_icons=true&amp;hide_rank=true&amp;hide_border=true&amp;bg_color=0B0E14&amp;title_color=C792EA&amp;text_color=E6E6E6&amp;icon_color=7CFFB2" width="480" alt="Muhammad Yousaf's GitHub statistics, provided by GitHub Readme Stats.">
+</p>
+
+</details>
+
+---
+
+**Have a problem that needs a useful interface, a solid backend, or an agent with clear boundaries? Let's talk.**
+
+[Email](mailto:yousaf.dev18@gmail.com) · [LinkedIn](https://linkedin.com/in/yousaf-dev18/) · [Portfolio](https://yousaf-dev18.vercel.app/)
+
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/footer.svg">
+  <img src=".github/assets/footer.gif" width="480" alt="yousaf@github: ./contact --human — Connection kept alive.">
+</picture>
