@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="92" viewBox="0 0 480 92" role="img" aria-labelledby="title desc">
+<title id="title">Contact Muhammad Yousaf. Connection kept alive.</title>
+<desc id="desc">Custom terminal illustration for Muhammad Yousaf. Decorative animation; no live system data.</desc>
+<style>
+text { font-family: 'DejaVu Sans Mono', Consolas, monospace; }
+.cursor { animation: blink 1.6s steps(1,end) infinite; }
+.signal { animation: pulse 4s ease-in-out infinite; }
+@keyframes blink { 0%,65% {opacity:1} 66%,100% {opacity:0} }
+@keyframes pulse { 0%,100% {opacity:.35} 50% {opacity:1} }
+
+@media (prefers-reduced-motion: reduce) { * {animation:none !important;} }
+</style>
+<rect x="1" y="1" width="478" height="90" rx="16" fill="#0B0E14" stroke="#263040"/>
+<text x="25" y="37" font-size="18" fill="#7CFFB2" >$ ./contact --human</text><text x="25" y="68" font-size="14" fill="#9AA3B8" >Connection kept alive.</text><rect class="cursor" x="257" y="53" width="10" height="18" fill="#C792EA"/>
+</svg>
