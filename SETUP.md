@@ -22,6 +22,11 @@ No build, API key, GitHub Action, hosting account, or package installation is re
 | `.github/assets/pipeline.gif` | Workflow playback |
 | `.github/assets/footer.svg` | Editable terminal footer and SVG animation |
 | `.github/assets/footer.gif` | Footer playback |
+| `.github/assets/typing-intro.gif` | Looping terminal typing introduction |
+| `.github/assets/typing-intro-static.png` | Reduced-motion typing introduction |
+| `.github/assets/stack-flow.gif` | Animated connections across the tech stack |
+| `.github/assets/stack-flow-static.png` | Reduced-motion tech stack illustration |
+| `.github/scripts/generate_readme_animations.py` | Source generator for the typing and stack animations |
 | `SETUP.md` | Installation and maintenance notes; does not need to be published |
 
 ```text
@@ -38,6 +43,12 @@ yousaf-profile/
       pipeline.gif
       footer.svg
       footer.gif
+      typing-intro.gif
+      typing-intro-static.png
+      stack-flow.gif
+      stack-flow-static.png
+    scripts/
+      generate_readme_animations.py
 ```
 
 ## Motion and editing
@@ -46,17 +57,23 @@ GIF files provide the default animation. The SVGs contain their own CSS animatio
 
 The header keeps the identity readable while its cursor and session light animate. The workflow highlights successive nodes over a 14-second loop. These are illustrations, not live service health, agent execution, or contribution data.
 
+The typing introduction cycles through four short lines about web apps, AI agents, document retrieval, and Linux. A moving signal and gently pulsing nodes connect the stack labels below the tools table. Both are local GIFs with static PNG alternatives for reduced motion.
+
+To edit these two animations, update `.github/scripts/generate_readme_animations.py` and run `python3 .github/scripts/generate_readme_animations.py` from the repository root. Regeneration requires Pillow and the DejaVu Sans Mono font at the path specified in the script; displaying the committed images requires no dependencies.
+
 The mobile header is selected below 600px. Text descriptions and links remain ordinary Markdown so essential information can be read even when images are unavailable.
 
 Edit an SVG in a text editor or vector editor to change its artwork. GIFs are rendered copies, so SVG edits do not automatically update them: export the changed animation again, or change the matching image reference in the README to its SVG counterpart. GitHub's SVG file viewer can show a static preview; use the committed README to assess the final presentation.
 
 ## External services and links
 
-The custom artwork makes no third-party requests. The optional, collapsed statistics card uses one external image endpoint:
+The custom artwork makes no third-party requests. The tech stack icons load from [Skill Icons](https://github.com/tandpfun/skill-icons), with light and dark variants and ten icons per row. The text table below them lists the full stack, including Linux and tools without a matching icon in the grid.
+
+The optional, collapsed statistics card uses another external image endpoint:
 
 `https://github-readme-stats.vercel.app/api?username=Yosf96633&show_icons=true&hide_rank=true&hide_border=true&bg_color=0B0E14&title_color=C792EA&text_color=E6E6E6&icon_color=7CFFB2`
 
-Collapsing the card does not guarantee that browsers defer its network request. Remove the entire optional telemetry `<details>` block if you want no external image services. The direct GitHub activity links still work without that widget.
+Collapsing the card does not guarantee that browsers defer its network request. To remove external image services, remove both the Skill Icons block and the optional telemetry `<details>` block. The text stack table and direct GitHub activity links still work without these images.
 
 Navigation destinations:
 

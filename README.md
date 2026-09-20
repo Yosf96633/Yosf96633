@@ -5,6 +5,20 @@
   <img src=".github/assets/terminal-header.gif" width="100%" alt="Muhammad Yousaf — Full-Stack + AI Systems Engineer. Linux, TypeScript, Python, Next.js, NestJS, FastAPI, LangGraph and RAG.">
 </picture>
 
+<h1 align="center">Hi, I'm Muhammad Yousaf</h1>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/typing-intro-static.png">
+    <img src=".github/assets/typing-intro.gif" width="800" alt="Building full-stack web apps, connecting AI agents to useful tools, turning documents into cited answers, and working in the Linux terminal.">
+  </picture>
+</p>
+
+<p align="center">
+  <strong>Full-Stack + AI Systems Engineer</strong><br>
+  Building web applications, AI agents, and retrieval systems with clear paths from context to action.
+</p>
+
 <p align="center">
   <a href="https://github.com/Yosf96633/Autohunt">AutoHunt</a> &nbsp; / &nbsp;
   <a href="https://github.com/Yosf96633/DocsAI">DocsAI</a> &nbsp; / &nbsp;
@@ -15,41 +29,47 @@
 
 ## `$ whoami`
 
-I'm **Muhammad Yousaf**, a **Full-Stack + AI Systems Engineer**. I build web applications and AI workflows that retrieve context, reason over it, call tools, and return control to a human before taking action.
+I work across **React and Next.js interfaces**, **TypeScript and Python backends**, and **AI workflows built with LangGraph**. My projects connect model reasoning to practical tools: searching documents, matching jobs, drafting responses, and automating browser tasks.
 
-Most of my work sits between backend architecture, Linux terminals, and agent workflows: the interface people use, the services behind it, and the decisions a model makes along the way.
+I care about the details that make those systems useful: source citations, validated outputs, persistent state, and human review before an agent submits an application.
 
 ```toml
 # ~/.config/yousaf/profile.toml
 shell = "zsh"
 editor = "VS Code"
-focus = "Full-stack AI engineering"
-building = ["AI agents", "RAG pipelines"]
+focus = ["Full-stack development", "AI agents", "RAG"]
+approach = ["Typed interfaces", "Traceable answers", "Human review"]
 ```
 
 ## `$ ls ~/projects`
 
 ### [AutoHunt](https://github.com/Yosf96633/Autohunt)
 
-**An AI job-application agent with a human approval gate.**
+**From CV to reviewed job application, in one stateful workflow.**
 
-`LangGraph` · `Playwright` · `Next.js 16` · `PostgreSQL`
+`LangGraph` · `Playwright` · `Next.js` · `TypeScript` · `PostgreSQL` · `Zod`
 
-A ten-stage workflow that parses a CV, discovers jobs, scores relevance, and drafts cover letters. A self-critique loop refines the draft; human review comes before browser-driven submission.
+A **10-stage agent workflow** that parses a CV, discovers jobs, scores relevance, and drafts cover letters before browser-driven submission.
 
-**Engineering focus:** orchestration, browser tools, iterative generation, and explicit control over when the agent acts.
+- **Review before action:** users review scored jobs and cover letters before automated submission.
+- **Iterative drafting:** OpenAI and Groq support job–CV matching and a cover-letter self-critique loop.
+- **Persistent state:** PostgreSQL-backed LangGraph checkpoints retain workflow progress; Zod validates extracted CV data, normalized jobs, and model outputs.
+- **Visible progress:** a Next.js dashboard shows live agent status, job browsing, and skill matches.
 
 [Explore the repository →](https://github.com/Yosf96633/Autohunt)
 
 ### [DocsAI](https://github.com/Yosf96633/DocsAI)
 
-**A legal-document assistant built around retrieval and citations.**
+**Ask questions about legal documents and trace answers to the source.**
 
-`FastAPI` · `LangGraph` · `Qdrant` · `Cohere`
+`FastAPI` · `Next.js` · `LangGraph` · `Qdrant` · `Cohere` · `PostgreSQL`
 
-Separate ingestion and conversational workflows combine dense and sparse retrieval with Cohere reranking. Position-aware chunks preserve page references for citation-grounded answers.
+A document analysis assistant with **separate ingestion and RAG chat workflows**, connecting PDF processing to streamed answers and source citations.
 
-**Engineering focus:** retrieval quality, document structure, and answers that can be traced back to their sources.
+- **Hybrid retrieval:** Qdrant combines dense embeddings and SPLADE sparse vectors, followed by Cohere reranking for semantic and keyword relevance.
+- **Source visibility:** position-aware PDF chunks retain page and estimated text coordinates for citation highlighting.
+- **Streaming responses:** server-sent events deliver generated text and citations to the Next.js interface.
+- **Conversation isolation:** PostgreSQL-backed thread context keeps chat histories separate.
 
 [Explore the repository →](https://github.com/Yosf96633/DocsAI)
 
@@ -66,9 +86,9 @@ Separate ingestion and conversational workflows combine dense and sparse retriev
 
 </details>
 
-## `$ cat pipeline.log`
+## `$ cat ~/workflows/autohunt`
 
-Start with the problem and the available context. Give each node a clear responsibility. Refine generated output, make review explicit, and keep consequential actions behind approval.
+AutoHunt separates discovery, evaluation, drafting, and submission into explicit steps, with a revision loop and a human review checkpoint.
 
 <p align="center">
   <picture>
@@ -77,19 +97,36 @@ Start with the problem and the available context. Give each node a clear respons
   </picture>
 </p>
 
-Shared state connects the steps, conditional edges handle revision, and tool calls connect reasoning to action.
+Shared state connects the steps. Conditional edges route drafts back for revision, and approval unlocks browser submission.
 
 ## `$ cat ~/.config/stack.toml`
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <picture>
+      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,py,js,nextjs,react,redux,tailwind,nestjs,fastapi,nodejs,express,postgres,mongodb,redis,linux,docker,git,vercel,postman,figma&amp;theme=light&amp;perline=10">
+      <img src="https://skillicons.dev/icons?i=ts,py,js,nextjs,react,redux,tailwind,nestjs,fastapi,nodejs,express,postgres,mongodb,redis,linux,docker,git,vercel,postman,figma&amp;theme=dark&amp;perline=10" width="480" alt="Tech stack: TypeScript, Python, JavaScript, Next.js, React, Redux, Tailwind CSS, NestJS, FastAPI, Node.js, Express, PostgreSQL, MongoDB, Redis, Linux, Docker, Git, Vercel, Postman, and Figma.">
+    </picture>
+  </a>
+</p>
 
 | Layer | Tools |
 | :--- | :--- |
 | **Languages** | TypeScript · Python · JavaScript |
-| **Frontend** | Next.js · React · Redux · Tailwind CSS · shadcn/ui |
+| **Frontend** | Next.js · React · Redux · Zustand · Tailwind CSS · shadcn/ui |
 | **Backend** | NestJS · FastAPI · Node.js · Express |
-| **Data** | PostgreSQL · MongoDB · Redis · Qdrant · Drizzle ORM |
+| **Data** | PostgreSQL · MongoDB · Redis · Qdrant · Drizzle ORM · Mongoose |
 | **AI & automation** | LangGraph · LangChain · RAG · MCP · n8n · Cohere Rerank |
 | **Auth & validation** | Better Auth · Auth.js · JWT · Zod |
-| **Infrastructure & tools** | Linux · Docker · Git · Vercel · Playwright · Postman · Figma |
+| **Operating system** | Linux |
+| **Infrastructure & tools** | Docker · Git · Vercel · Render · Playwright · Postman · Figma |
+
+<p align="center">
+  <picture>
+    <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/stack-flow-static.png">
+    <img src=".github/assets/stack-flow.gif" width="720" alt="Decorative animated connections across my stack: web, APIs, data, AI, and Linux.">
+  </picture>
+</p>
 
 ## `$ git log --author="Muhammad Yousaf"`
 
@@ -97,15 +134,22 @@ Shared state connects the steps, conditional edges handle revision, and tool cal
 
 **Mozzine Technologies**
 
-- Built B2B SaaS dashboard interfaces with Next.js, TypeScript, and Tailwind CSS.
-- Translated **20+ Figma designs** into UI components with shadcn/ui.
+- Developed B2B SaaS dashboard features with Next.js, TypeScript, and Tailwind CSS.
+- Translated **20+ Figma designs** into responsive components with shadcn/ui, maintaining consistency across desktop and mobile.
+- Integrated REST APIs with Redux and Zustand, and resolved UI bugs across browsers and dashboard modules.
 
 ### `2025-07 → 2025-09` · Full Stack Intern
 
 **Code Expert**
 
-- Worked on a multi-vendor e-commerce platform with **two role-based dashboards**.
-- Built **15+ REST endpoints** and optimized queries with Mongoose indexing.
+- Developed a multi-vendor e-commerce platform with **2 role-based dashboards** for food and gift product modules.
+- Built **15+ REST API endpoints** for orders, products, and vendor operations, with shared MongoDB schemas and validation middleware.
+- Improved database query response times by **40%** using Mongoose lean queries, projections, and compound indexes.
+- Implemented NextAuth.js authentication, JWT sessions, role-based access, and transactional emails through Resend.
+
+## `$ cat ~/education`
+
+**BS Computer Science** · Government College University Faisalabad · 2021–2025
 
 ## `$ cat ~/notes/engineering.md`
 
@@ -131,7 +175,9 @@ I'm going deeper into the parts that make these systems dependable:
 
 ---
 
-**Have a problem that needs a useful interface, a solid backend, or an agent with clear boundaries? Let's talk.**
+**Let's build something useful.**
+
+For full-stack development, AI workflows, or document retrieval projects, get in touch:
 
 [Email](mailto:yousaf.dev18@gmail.com) · [LinkedIn](https://linkedin.com/in/yousaf-dev18/) · [Portfolio](https://yousaf-dev18.vercel.app/)
 
