@@ -101,25 +101,83 @@ Shared state connects the steps. Conditional edges route drafts back for revisio
 
 ## `$ cat ~/.config/stack.toml`
 
-<p align="center">
-  <a href="https://skillicons.dev">
-    <picture>
-      <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,py,js,nextjs,react,redux,tailwind,nestjs,fastapi,nodejs,express,postgres,mongodb,redis,linux,docker,git,vercel,postman,figma&amp;theme=light&amp;perline=10">
-      <img src="https://skillicons.dev/icons?i=ts,py,js,nextjs,react,redux,tailwind,nestjs,fastapi,nodejs,express,postgres,mongodb,redis,linux,docker,git,vercel,postman,figma&amp;theme=dark&amp;perline=10" width="480" alt="Tech stack: TypeScript, Python, JavaScript, Next.js, React, Redux, Tailwind CSS, NestJS, FastAPI, Node.js, Express, PostgreSQL, MongoDB, Redis, Linux, Docker, Git, Vercel, Postman, and Figma.">
-    </picture>
-  </a>
-</p>
-
-| Layer | Tools |
-| :--- | :--- |
-| **Languages** | TypeScript · Python · JavaScript |
-| **Frontend** | Next.js · React · Redux · Zustand · Tailwind CSS · shadcn/ui |
-| **Backend** | NestJS · FastAPI · Node.js · Express |
-| **Data** | PostgreSQL · MongoDB · Redis · Qdrant · Drizzle ORM · Mongoose |
-| **AI & automation** | LangGraph · LangChain · RAG · MCP · n8n · Cohere Rerank |
-| **Auth & validation** | Better Auth · Auth.js · JWT · Zod |
-| **Operating system** | Linux |
-| **Infrastructure & tools** | Docker · Git · Vercel · Render · Playwright · Postman · Figma |
+<table>
+  <thead>
+    <tr><th align="left" width="180">Layer</th><th align="left">Tools</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="middle"><strong>Languages</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/typescript.svg" width="36" height="36" alt="TypeScript" title="TypeScript"> &nbsp; <img src=".github/assets/stack/python.svg" width="36" height="36" alt="Python" title="Python"> &nbsp; <img src=".github/assets/stack/javascript.svg" width="36" height="36" alt="JavaScript" title="JavaScript"> &nbsp; <img src=".github/assets/stack/cplusplus.svg" width="36" height="36" alt="C++" title="C++"> &nbsp; <img src=".github/assets/stack/rust.svg" width="36" height="36" alt="Rust" title="Rust">
+        <br>
+        TypeScript · Python · JavaScript · C++ · Rust
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Frontend</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/nextjs.svg" width="36" height="36" alt="Next.js" title="Next.js"> &nbsp; <img src=".github/assets/stack/react.svg" width="36" height="36" alt="React" title="React"> &nbsp; <img src=".github/assets/stack/redux.svg" width="36" height="36" alt="Redux" title="Redux"> &nbsp; <img src=".github/assets/stack/tailwindcss.svg" width="36" height="36" alt="Tailwind CSS" title="Tailwind CSS">
+        <br>
+        Next.js · React · Redux · Zustand · Tailwind CSS · shadcn/ui
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Backend</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/nestjs.svg" width="36" height="36" alt="NestJS" title="NestJS"> &nbsp; <img src=".github/assets/stack/fastapi.svg" width="36" height="36" alt="FastAPI" title="FastAPI"> &nbsp; <img src=".github/assets/stack/nodejs.svg" width="36" height="36" alt="Node.js" title="Node.js"> &nbsp; <img src=".github/assets/stack/express.svg" width="36" height="36" alt="Express" title="Express">
+        <br>
+        NestJS · FastAPI · Node.js · Express
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Data</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/postgresql.svg" width="36" height="36" alt="PostgreSQL" title="PostgreSQL"> &nbsp; <img src=".github/assets/stack/mongodb.svg" width="36" height="36" alt="MongoDB" title="MongoDB"> &nbsp; <img src=".github/assets/stack/redis.svg" width="36" height="36" alt="Redis" title="Redis"> &nbsp; <img src=".github/assets/stack/qdrant.svg" width="36" height="36" alt="Qdrant" title="Qdrant">
+        <br>
+        PostgreSQL · MongoDB · Redis · Qdrant · Drizzle ORM · Mongoose
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>AI &amp; automation</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/langchain.svg" width="36" height="36" alt="LangChain" title="LangChain"> &nbsp; <img src=".github/assets/stack/langgraph.svg" width="36" height="36" alt="LangGraph" title="LangGraph">
+        <br>
+        LangChain · LangGraph · RAG · MCP · n8n · Cohere Rerank
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Auth &amp; validation</strong></td>
+      <td align="left">
+        Better Auth · Auth.js · JWT · Zod
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Operating system</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/linux.svg" width="36" height="36" alt="Linux" title="Linux">
+        <br>
+        Linux
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Security &amp; networking</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/nmap.png" width="36" height="36" alt="Nmap" title="Nmap"> &nbsp; <img src=".github/assets/stack/metasploit.svg" width="36" height="36" alt="Metasploit" title="Metasploit"> &nbsp; <img src=".github/assets/stack/wireshark.svg" width="36" height="36" alt="Wireshark" title="Wireshark"> &nbsp; <img src=".github/assets/stack/burpsuite.svg" width="36" height="36" alt="Burp Suite" title="Burp Suite">
+        <br>
+        Nmap · Metasploit · Wireshark · Burp Suite
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle"><strong>Infrastructure &amp; tools</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/docker.svg" width="36" height="36" alt="Docker" title="Docker"> &nbsp; <img src=".github/assets/stack/git.svg" width="36" height="36" alt="Git" title="Git"> &nbsp; <img src=".github/assets/stack/vercel.svg" width="36" height="36" alt="Vercel" title="Vercel">
+        <br>
+        Docker · Git · Vercel · Render · Playwright · Postman · Figma
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <p align="center">
   <picture>

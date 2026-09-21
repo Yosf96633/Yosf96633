@@ -26,6 +26,7 @@ No build, API key, GitHub Action, hosting account, or package installation is re
 | `.github/assets/typing-intro-static.png` | Reduced-motion typing introduction |
 | `.github/assets/stack-flow.gif` | Animated connections across the tech stack |
 | `.github/assets/stack-flow-static.png` | Reduced-motion tech stack illustration |
+| `.github/assets/stack/` | Local stack logos, source notes, and Devicon license |
 | `.github/scripts/generate_readme_animations.py` | Source generator for the typing and stack animations |
 | `SETUP.md` | Installation and maintenance notes; does not need to be published |
 
@@ -47,6 +48,7 @@ yousaf-profile/
       typing-intro-static.png
       stack-flow.gif
       stack-flow-static.png
+      stack/
     scripts/
       generate_readme_animations.py
 ```
@@ -67,13 +69,15 @@ Edit an SVG in a text editor or vector editor to change its artwork. GIFs are re
 
 ## External services and links
 
-The custom artwork makes no third-party requests. The tech stack icons load from [Skill Icons](https://github.com/tandpfun/skill-icons), with light and dark variants and ten icons per row. The text table below them lists the full stack, including Linux and tools without a matching icon in the grid.
+The custom artwork and stack icons are stored locally and make no third-party requests. The stack uses a single table with category labels, consistently sized 36-pixel logos, and tool names beneath each row of icons. This includes Rust, C++, Linux, AI tools, databases, and security tools.
 
-The optional, collapsed statistics card uses another external image endpoint:
+Logos use Devicon's original variants, unmodified Simple Icons artwork, and the official Nmap image. Rust, Express, and Vercel have neutral white backdrops to keep their original black artwork readable in both themes. Sources and license details are in `.github/assets/stack/SOURCES.md`.
+
+The optional, collapsed statistics card uses an external image endpoint:
 
 `https://github-readme-stats.vercel.app/api?username=Yosf96633&show_icons=true&hide_rank=true&hide_border=true&bg_color=0B0E14&title_color=C792EA&text_color=E6E6E6&icon_color=7CFFB2`
 
-Collapsing the card does not guarantee that browsers defer its network request. To remove external image services, remove both the Skill Icons block and the optional telemetry `<details>` block. The text stack table and direct GitHub activity links still work without these images.
+Collapsing the card does not guarantee that browsers defer its network request. To remove external image services, remove the optional telemetry `<details>` block. The stack table and direct GitHub activity links still work without that card.
 
 Navigation destinations:
 
