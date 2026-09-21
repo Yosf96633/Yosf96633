@@ -169,6 +169,14 @@ Shared state connects the steps. Conditional edges route drafts back for revisio
       </td>
     </tr>
     <tr>
+      <td valign="middle"><strong>Defensive security</strong></td>
+      <td align="left">
+        <img src=".github/assets/stack/wazuh.png" width="36" height="36" alt="Wazuh" title="Wazuh"> &nbsp; <img src=".github/assets/stack/suricata.png" width="46" height="36" alt="Suricata" title="Suricata"> &nbsp; <img src=".github/assets/stack/zeek.png" width="36" height="36" alt="Zeek" title="Zeek">
+        <br>
+        Wazuh · Suricata · Zeek
+      </td>
+    </tr>
+    <tr>
       <td valign="middle"><strong>Infrastructure &amp; tools</strong></td>
       <td align="left">
         <img src=".github/assets/stack/docker.svg" width="36" height="36" alt="Docker" title="Docker"> &nbsp; <img src=".github/assets/stack/git.svg" width="36" height="36" alt="Git" title="Git"> &nbsp; <img src=".github/assets/stack/vercel.svg" width="36" height="36" alt="Vercel" title="Vercel">

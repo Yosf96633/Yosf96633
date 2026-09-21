@@ -71,7 +71,7 @@ Edit an SVG in a text editor or vector editor to change its artwork. GIFs are re
 
 The custom artwork and stack icons are stored locally and make no third-party requests. The stack uses a single table with category labels, consistently sized 36-pixel logos, and tool names beneath each row of icons. This includes Rust, C++, Linux, AI tools, databases, and security tools.
 
-Logos use Devicon's original variants, unmodified Simple Icons artwork, and the official Nmap image. Rust, Express, and Vercel have neutral white backdrops to keep their original black artwork readable in both themes. Sources and license details are in `.github/assets/stack/SOURCES.md`.
+Logos use Devicon's original variants, unmodified Simple Icons artwork, and official Nmap, Wazuh, Suricata, and Zeek images. The defensive security row groups Wazuh, Suricata, and Zeek with the same icon size and spacing as the other categories. Rust, Express, and Vercel have neutral white backdrops to keep their original black artwork readable in both themes. Sources and license details are in `.github/assets/stack/SOURCES.md`.
 
 The optional, collapsed statistics card uses an external image endpoint:
 

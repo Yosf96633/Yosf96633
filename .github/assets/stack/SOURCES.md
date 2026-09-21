@@ -44,4 +44,12 @@ These SVGs retain the source artwork and colors from [Simple Icons](https://gith
 
 The unmodified [Nmap logo](https://nmap.org/images/nmap-logo-256x256.png) comes from the [official Nmap website](https://nmap.org/). It is separate from the Devicon and Simple Icons licenses.
 
-Brand marks belong to their respective owners.
+## Defensive security
+
+These original logos are downloaded from the projects' official websites, with their artwork and colors preserved. Each is displayed at 36 pixels high; Suricata is 46 pixels wide to preserve its aspect ratio:
+
+- [Wazuh](https://wazuh.com/uploads/2026/06/wazuh-logo-square.png)
+- [Suricata](https://canada1.discourse-cdn.com/flex030/uploads/suricata/original/1X/d65423cf58cf54148486589a914f8d15ebdb826c.png), from its [official community forum](https://forum.suricata.io/)
+- [Zeek](https://zeek.org/wp-content/uploads/2026/08/cropped-zeek-logo-blue-black-rgb-vertical-192x192.png)
+
+These brand assets are separate from the Devicon and Simple Icons licenses. Brand marks belong to their respective owners.
