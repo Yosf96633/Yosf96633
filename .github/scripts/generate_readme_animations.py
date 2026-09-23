@@ -1,6 +1,5 @@
 """Regenerate README animations with Python and Pillow."""
 
-from math import cos, pi
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
@@ -71,37 +70,7 @@ def typing_intro():
     save_loop("typing-intro", frames, durations, render(lines[0], False))
 
 
-def stack_flow():
-    labels = ["WEB", "API", "DATA", "AI", "LINUX"]
-    positions = [72, 216, 360, 504, 648]
-
-    def render(t=None):
-        image, draw = card((720, 88))
-        draw.line((positions[0], 29, positions[-1], 29), fill=BORDER, width=2)
-        if t is not None:
-            x = positions[0] + (positions[-1] - positions[0]) * t
-            for offset in range(24, -1, -1):
-                strength = (1 - offset / 25) * 0.85
-                color = tuple(round(a + (b - a) * strength)
-                              for a, b in zip((11, 14, 20), (124, 255, 178)))
-                draw.line((max(positions[0], x - offset), 29, x, 29),
-                          fill=color, width=3)
-        for i, (label, x) in enumerate(zip(labels, positions)):
-            pulse = 0 if t is None else (1 + cos(2 * pi * (t - i / 4))) / 2
-            radius = 7 + round(2 * pulse)
-            draw.ellipse((x - 14, 15, x + 14, 43), fill=BG, outline=BORDER)
-            draw.ellipse((x - radius, 29 - radius, x + radius, 29 + radius),
-                         fill=GREEN if i % 2 == 0 else PURPLE)
-            width = draw.textlength(label, font=font(15))
-            draw.text((x - width / 2, 55), label, font=font(15), fill=TEXT)
-        return image
-
-    frames = [render(i / 79) for i in range(80)]
-    save_loop("stack-flow", frames, [60] * len(frames), render())
-
-
 if __name__ == "__main__":
     ASSETS.mkdir(parents=True, exist_ok=True)
     typing_intro()
-    stack_flow()
-    print("Generated typing intro and stack flow, with static alternatives.")
+    print("Generated the typing intro with a static alternative.")

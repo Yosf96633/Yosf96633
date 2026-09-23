@@ -2,7 +2,7 @@
 
 Updated on 2026-09-21.
 
-The README uses original logo shapes and upstream colors. Icons are grouped by category and displayed at 36 × 36 pixels. Rust, Express, and Vercel have a white backdrop for contrast in both GitHub themes; their original artwork is unchanged.
+The README uses original logo shapes and upstream colors. Icons are grouped into centered rows and displayed at 42 pixels high. Monochrome marks use neutral contrast tiles for readability in both GitHub themes; their original artwork is unchanged.
 
 ## Devicon
 
@@ -33,12 +33,28 @@ These are the `original` SVG variants from [Devicon](https://github.com/devicons
 
 These SVGs retain the source artwork and colors from [Simple Icons](https://github.com/simple-icons/simple-icons), distributed under [CC0](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md).
 
+- [Better Auth](https://cdn.simpleicons.org/betterauth)
+- [Drizzle](https://cdn.simpleicons.org/drizzle)
+- [JSON Web Tokens](https://cdn.simpleicons.org/jsonwebtokens)
 - [langchain](https://cdn.simpleicons.org/langchain)
 - [langgraph](https://cdn.simpleicons.org/langgraph)
+- [Model Context Protocol](https://cdn.simpleicons.org/modelcontextprotocol)
+- [Mongoose](https://cdn.simpleicons.org/mongoose)
+- [n8n](https://cdn.simpleicons.org/n8n)
 - [qdrant](https://cdn.simpleicons.org/qdrant)
+- [Render](https://cdn.simpleicons.org/render)
+- [shadcn/ui](https://cdn.simpleicons.org/shadcnui)
 - [metasploit](https://cdn.simpleicons.org/metasploit)
 - [wireshark](https://cdn.simpleicons.org/wireshark)
 - [burpsuite](https://cdn.simpleicons.org/burpsuite)
+- [Zod](https://cdn.simpleicons.org/zod)
+
+## Official project assets
+
+- [Auth.js](https://github.com/nextauthjs/next-auth/blob/main/docs/public/img/logo-sm.png)
+- [Cohere](https://cohere.com/apple-touch-icon.png)
+- [Playwright](https://github.com/microsoft/playwright/blob/main/packages/recorder/public/playwright-logo.svg)
+- [Zustand](https://github.com/pmndrs/zustand/blob/main/examples/demo/public/logo192.png)
 
 ## Nmap
 

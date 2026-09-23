@@ -18,14 +18,10 @@ No build, API key, GitHub Action, hosting account, or package installation is re
 | `.github/assets/terminal-header.gif` | Desktop terminal playback |
 | `.github/assets/terminal-mobile.svg` | Editable narrow terminal artwork and SVG animation |
 | `.github/assets/terminal-mobile.gif` | Narrow terminal playback |
-| `.github/assets/pipeline.svg` | Editable workflow artwork and SVG animation |
-| `.github/assets/pipeline.gif` | Workflow playback |
 | `.github/assets/footer.svg` | Editable terminal footer and SVG animation |
 | `.github/assets/footer.gif` | Footer playback |
 | `.github/assets/typing-intro.gif` | Looping terminal typing introduction |
 | `.github/assets/typing-intro-static.png` | Reduced-motion typing introduction |
-| `.github/assets/stack-flow.gif` | Animated connections across the tech stack |
-| `.github/assets/stack-flow-static.png` | Reduced-motion tech stack illustration |
 | `.github/assets/stack/` | Local stack logos, source notes, and Devicon license |
 | `.github/scripts/generate_readme_animations.py` | Source generator for the typing and stack animations |
 | `SETUP.md` | Installation and maintenance notes; does not need to be published |
@@ -40,14 +36,10 @@ yousaf-profile/
       terminal-header.gif
       terminal-mobile.svg
       terminal-mobile.gif
-      pipeline.svg
-      pipeline.gif
       footer.svg
       footer.gif
       typing-intro.gif
       typing-intro-static.png
-      stack-flow.gif
-      stack-flow-static.png
       stack/
     scripts/
       generate_readme_animations.py
@@ -57,11 +49,11 @@ yousaf-profile/
 
 GIF files provide the default animation. The SVGs contain their own CSS animations and complete vector source; they need no external fonts, scripts, images, or stylesheets. The README uses SVG alternatives when a visitor prefers reduced motion; the SVGs also disable their animation for that preference.
 
-The header keeps the identity readable while its cursor and session light animate. The workflow highlights successive nodes over a 14-second loop. These are illustrations, not live service health, agent execution, or contribution data.
+The header keeps the identity readable while its cursor and session light animate. These illustrations do not show live service health or contribution data.
 
-The typing introduction cycles through four short lines about web apps, AI agents, document retrieval, and Linux. A moving signal and gently pulsing nodes connect the stack labels below the tools table. Both are local GIFs with static PNG alternatives for reduced motion.
+The typing introduction cycles through four short lines about web apps, AI agents, document retrieval, and Linux. It is a local GIF with a static PNG alternative for reduced motion.
 
-To edit these two animations, update `.github/scripts/generate_readme_animations.py` and run `python3 .github/scripts/generate_readme_animations.py` from the repository root. Regeneration requires Pillow and the DejaVu Sans Mono font at the path specified in the script; displaying the committed images requires no dependencies.
+To edit the typing animation, update `.github/scripts/generate_readme_animations.py` and run `python3 .github/scripts/generate_readme_animations.py` from the repository root. Regeneration requires Pillow and the DejaVu Sans Mono font at the path specified in the script; displaying the committed images requires no dependencies.
 
 The mobile header is selected below 600px. Text descriptions and links remain ordinary Markdown so essential information can be read even when images are unavailable.
 
@@ -69,15 +61,11 @@ Edit an SVG in a text editor or vector editor to change its artwork. GIFs are re
 
 ## External services and links
 
-The custom artwork and stack icons are stored locally and make no third-party requests. The stack uses a single table with category labels, consistently sized 36-pixel logos, and tool names beneath each row of icons. This includes Rust, C++, Linux, AI tools, databases, and security tools.
+The custom artwork and stack icons are stored locally and make no third-party requests. The stack is an icon-only grid: hover titles and alternative text identify every logo without repeating visible tool names. Most icons are 42 pixels square; wide source artwork keeps its original aspect ratio.
 
-Logos use Devicon's original variants, unmodified Simple Icons artwork, and official Nmap, Wazuh, Suricata, and Zeek images. The defensive security row groups Wazuh, Suricata, and Zeek with the same icon size and spacing as the other categories. Rust, Express, and Vercel have neutral white backdrops to keep their original black artwork readable in both themes. Sources and license details are in `.github/assets/stack/SOURCES.md`.
+Logos use Devicon's original variants, unmodified Simple Icons artwork, and assets from the tools' official sites or repositories. Monochrome marks use neutral contrast tiles so their original artwork remains readable in both themes. Sources and license details are in `.github/assets/stack/SOURCES.md`.
 
-The optional, collapsed statistics card uses an external image endpoint:
-
-`https://github-readme-stats.vercel.app/api?username=Yosf96633&show_icons=true&hide_rank=true&hide_border=true&bg_color=0B0E14&title_color=C792EA&text_color=E6E6E6&icon_color=7CFFB2`
-
-Collapsing the card does not guarantee that browsers defer its network request. To remove external image services, remove the optional telemetry `<details>` block. The stack table and direct GitHub activity links still work without that card.
+The collapsed GitHub statistics card uses `github-profile-summary-cards.vercel.app`, with separate light and dark SVG themes. The public endpoints were checked before inclusion. Because the card is generated externally, its future availability depends on that service.
 
 Navigation destinations:
 
@@ -88,14 +76,7 @@ Navigation destinations:
 - https://linkedin.com/in/yousaf-dev18/
 - https://yousaf-dev18.vercel.app/
 - mailto:yousaf.dev18@gmail.com
-
-## Optional statistics self-hosting
-
-The public GitHub Readme Stats endpoint is best-effort and can fail during rate limits or traffic spikes. Its maintainers document deployment through GitHub Actions or your own hosted instance:
-
-https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own
-
-Follow the current upstream deployment instructions. For a hosted instance, replace only `https://github-readme-stats.vercel.app` in the README with your deployment origin, keeping `/api` and the query parameters. Store any required token in the hosting provider's secret settings; never put it in the README or an image URL. A dedicated deployment still has GitHub API and hosting limits.
+- https://github-profile-summary-cards.vercel.app/
 
 ## References
 
