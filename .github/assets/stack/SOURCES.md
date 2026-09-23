@@ -44,8 +44,6 @@ These SVGs retain the source artwork and colors from [Simple Icons](https://gith
 - [qdrant](https://cdn.simpleicons.org/qdrant)
 - [Render](https://cdn.simpleicons.org/render)
 - [shadcn/ui](https://cdn.simpleicons.org/shadcnui)
-- [metasploit](https://cdn.simpleicons.org/metasploit)
-- [wireshark](https://cdn.simpleicons.org/wireshark)
 - [burpsuite](https://cdn.simpleicons.org/burpsuite)
 - [Zod](https://cdn.simpleicons.org/zod)
 
@@ -56,16 +54,12 @@ These SVGs retain the source artwork and colors from [Simple Icons](https://gith
 - [Playwright](https://github.com/microsoft/playwright/blob/main/packages/recorder/public/playwright-logo.svg)
 - [Zustand](https://github.com/pmndrs/zustand/blob/main/examples/demo/public/logo192.png)
 
-## Nmap
+## Security tools
 
-The unmodified [Nmap logo](https://nmap.org/images/nmap-logo-256x256.png) comes from the [official Nmap website](https://nmap.org/). It is separate from the Devicon and Simple Icons licenses.
+The full-color application icons come directly from their official repositories:
 
-## Defensive security
+- [Nmap/Zenmap](https://github.com/nmap/nmap/blob/master/zenmap/zenmapCore/data/pixmaps/zenmap.png)
+- [Metasploit Framework](https://github.com/rapid7/metasploit-framework/blob/master/docs/assets/images/favicon.png)
+- [Wireshark](https://github.com/wireshark/wireshark/blob/master/resources/icons/wsicon256.png)
 
-These original logos are downloaded from the projects' official websites, with their artwork and colors preserved. Each is displayed at 36 pixels high; Suricata is 46 pixels wide to preserve its aspect ratio:
-
-- [Wazuh](https://wazuh.com/uploads/2026/06/wazuh-logo-square.png)
-- [Suricata](https://canada1.discourse-cdn.com/flex030/uploads/suricata/original/1X/d65423cf58cf54148486589a914f8d15ebdb826c.png), from its [official community forum](https://forum.suricata.io/)
-- [Zeek](https://zeek.org/wp-content/uploads/2026/08/cropped-zeek-logo-blue-black-rgb-vertical-192x192.png)
-
-These brand assets are separate from the Devicon and Simple Icons licenses. Brand marks belong to their respective owners.
+These brand assets are separate from the Devicon and Simple Icons licenses. Their marks belong to their respective owners.

@@ -147,12 +147,9 @@ A document analysis assistant with **separate ingestion and RAG chat workflows**
 
 <p align="center">
   <a href="https://nmap.org/"><img src=".github/assets/stack/nmap.png" width="42" height="42" alt="Nmap" title="Nmap"></a>&nbsp;
-  <a href="https://www.metasploit.com/"><img src=".github/assets/stack/metasploit.svg" width="42" height="42" alt="Metasploit" title="Metasploit"></a>&nbsp;
-  <a href="https://www.wireshark.org/"><img src=".github/assets/stack/wireshark.svg" width="42" height="42" alt="Wireshark" title="Wireshark"></a>&nbsp;
-  <a href="https://portswigger.net/burp"><img src=".github/assets/stack/burpsuite.svg" width="42" height="42" alt="Burp Suite" title="Burp Suite"></a>&nbsp;
-  <a href="https://wazuh.com/"><img src=".github/assets/stack/wazuh.png" width="42" height="42" alt="Wazuh" title="Wazuh"></a>&nbsp;
-  <a href="https://suricata.io/"><img src=".github/assets/stack/suricata.png" width="54" height="42" alt="Suricata" title="Suricata"></a>&nbsp;
-  <a href="https://zeek.org/"><img src=".github/assets/stack/zeek.png" width="42" height="42" alt="Zeek" title="Zeek"></a>
+  <a href="https://www.metasploit.com/"><img src=".github/assets/stack/metasploit.png" width="42" height="42" alt="Metasploit" title="Metasploit"></a>&nbsp;
+  <a href="https://www.wireshark.org/"><img src=".github/assets/stack/wireshark.png" width="42" height="42" alt="Wireshark" title="Wireshark"></a>&nbsp;
+  <a href="https://portswigger.net/burp"><img src=".github/assets/stack/burpsuite.svg" width="42" height="42" alt="Burp Suite" title="Burp Suite"></a>
 </p>
 
 ## `$ git log --author="Muhammad Yousaf"`
