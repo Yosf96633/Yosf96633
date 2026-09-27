@@ -11,5 +11,5 @@ text { font-family: 'DejaVu Sans Mono', Consolas, monospace; }
 @media (prefers-reduced-motion: reduce) { * {animation:none !important;} }
 </style>
 <rect x="1" y="1" width="478" height="90" rx="16" fill="#0B0E14" stroke="#263040"/>
-<text x="25" y="37" font-size="18" fill="#7CFFB2" >$ ./contact --human</text><text x="25" y="68" font-size="14" fill="#9AA3B8" >Connection kept alive.</text><rect class="cursor" x="257" y="53" width="10" height="18" fill="#C792EA"/>
+<text x="25" y="37" font-size="18" fill="#7CFFB2" >$ ./contact --human</text><text x="25" y="68" font-size="14" fill="#9AA3B8" >Connection kept alive.</text><rect class="cursor" x="257" y="53" width="10" height="18" fill="#64D8E8"/>
 </svg>

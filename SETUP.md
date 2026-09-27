@@ -23,7 +23,7 @@ No build, API key, GitHub Action, hosting account, or package installation is re
 | `.github/assets/typing-intro.gif` | Looping terminal typing introduction |
 | `.github/assets/typing-intro-static.png` | Reduced-motion typing introduction |
 | `.github/assets/stack/` | Local stack logos, source notes, and Devicon license |
-| `.github/scripts/generate_readme_animations.py` | Source generator for the typing and stack animations |
+| `.github/scripts/generate_readme_animations.py` | Source generator for the terminal and typing GIFs |
 | `SETUP.md` | Installation and maintenance notes; does not need to be published |
 
 ```text
@@ -49,11 +49,11 @@ yousaf-profile/
 
 GIF files provide the default animation. The SVGs contain their own CSS animations and complete vector source; they need no external fonts, scripts, images, or stylesheets. The README uses SVG alternatives when a visitor prefers reduced motion; the SVGs also disable their animation for that preference.
 
-The header keeps the identity readable while its cursor and session light animate. These illustrations do not show live service health or contribution data.
+The header pairs Linux process control and myShell with agentic AI while its cursor and status light animate. These illustrations do not show live service health or contribution data.
 
-The typing introduction cycles through four short lines about web apps, AI agents, document retrieval, and Linux. It is a local GIF with a static PNG alternative for reduced motion.
+The typing introduction cycles through short lines about the C++ shell, agent state, cited answers, and Linux. It is a local GIF with a static PNG alternative for reduced motion.
 
-To edit the typing animation, update `.github/scripts/generate_readme_animations.py` and run `python3 .github/scripts/generate_readme_animations.py` from the repository root. Regeneration requires Pillow and the DejaVu Sans Mono font at the path specified in the script; displaying the committed images requires no dependencies.
+To edit the terminal or typing GIFs, update `.github/scripts/generate_readme_animations.py` and run `python3 .github/scripts/generate_readme_animations.py` from the repository root. Regeneration requires Pillow and the DejaVu Sans Mono fonts at the paths specified in the script; displaying the committed images requires no dependencies. Keep the matching SVG copy in sync when changing terminal or footer content.
 
 The mobile header is selected below 600px. Text descriptions and links remain ordinary Markdown so essential information can be read even when images are unavailable.
 
@@ -73,6 +73,7 @@ Navigation destinations:
 - https://github.com/Yosf96633?tab=repositories
 - https://github.com/Yosf96633/Autohunt
 - https://github.com/Yosf96633/DocsAI
+- https://github.com/Yosf96633/shell
 - https://linkedin.com/in/yousaf-dev18/
 - https://yousaf-dev18.vercel.app/
 - mailto:yousaf.dev18@gmail.com
@@ -87,4 +88,4 @@ Navigation destinations:
 
 ## Content notes
 
-Project descriptions and employment dates follow the supplied brief. No repository inspection, live deployment verification, new performance measurement, or account modification was performed. The speculative uptime line and broad production-ready claims were removed. No repository names were guessed for Vidspire, CamBot, or Better Auth Starter.
+The myShell project summary follows its README, architecture, and roadmap documents. Other project descriptions and employment dates follow the supplied brief. No live deployment verification, new performance measurement, or account modification was performed. No repository names were guessed for Vidspire, CamBot, or Better Auth Starter.

@@ -2,7 +2,7 @@
   <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset=".github/assets/terminal-mobile.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/terminal-header.svg">
   <source media="(max-width: 600px)" srcset=".github/assets/terminal-mobile.gif">
-  <img src=".github/assets/terminal-header.gif" width="100%" alt="Muhammad Yousaf — Full-Stack + AI Systems Engineer. Linux, TypeScript, Python, Next.js, NestJS, FastAPI, LangGraph and RAG.">
+  <img src=".github/assets/terminal-header.gif" width="100%" alt="Muhammad Yousaf — Linux systems and agentic AI. Building a C++ shell, LangGraph agents, and useful web tools.">
 </picture>
 
 <h1 align="center">Hi, I'm Muhammad Yousaf</h1>
@@ -10,16 +10,17 @@
 <p align="center">
   <picture>
     <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/typing-intro-static.png">
-    <img src=".github/assets/typing-intro.gif" width="800" alt="Building full-stack web apps, connecting AI agents to useful tools, turning documents into cited answers, and working in the Linux terminal.">
+    <img src=".github/assets/typing-intro.gif" width="800" alt="Building a shell in C++, connecting AI agents to useful tools, grounding answers in documents, and shipping applications on Linux.">
   </picture>
 </p>
 
 <p align="center">
-  <strong>Full-Stack + AI Systems Engineer</strong><br>
-  Building web applications, AI agents, and retrieval systems with clear paths from context to action.
+  <strong>Linux systems · Agentic AI · Full-stack engineering</strong><br>
+  From process groups and terminal control to stateful agents and cited answers.
 </p>
 
 <p align="center">
+  <a href="https://github.com/Yosf96633/shell">myShell</a> &nbsp; / &nbsp;
   <a href="https://github.com/Yosf96633/Autohunt">AutoHunt</a> &nbsp; / &nbsp;
   <a href="https://github.com/Yosf96633/DocsAI">DocsAI</a> &nbsp; / &nbsp;
   <a href="https://yousaf-dev18.vercel.app/">Portfolio</a> &nbsp; / &nbsp;
@@ -29,19 +30,35 @@
 
 ## `$ whoami`
 
-I work across **React and Next.js interfaces**, **TypeScript and Python backends**, and **AI workflows built with LangGraph**. My projects connect model reasoning to practical tools: searching documents, matching jobs, drafting responses, and automating browser tasks.
+I build at the intersection of **Linux systems** and **agentic AI**. I wrote a Unix-like shell in C++20, and I build LangGraph workflows that turn model reasoning into useful actions and source-backed answers. I use TypeScript, Python, React, and Next.js to make those systems usable.
 
-I care about the details that make those systems useful: source citations, validated outputs, persistent state, and human review before an agent submits an application.
+The details matter to me: process groups and terminal signals in a shell; explicit state, citations, validation, and human review in AI workflows.
 
 ```toml
 # ~/.config/yousaf/profile.toml
 shell = "zsh"
+shell_project = "myShell"
 editor = "VS Code"
-focus = ["Full-stack development", "AI agents", "RAG"]
-approach = ["Typed interfaces", "Traceable answers", "Human review"]
+focus = ["Linux systems", "Agentic AI", "Full-stack interfaces"]
+approach = ["Process control", "Explicit state", "Traceable answers"]
 ```
 
 ## `$ ls ~/projects`
+
+### [myShell](https://github.com/Yosf96633/shell)
+
+**A Unix-like shell built from the parser to the controlling terminal.**
+
+`C++20` · `POSIX` · `CMake` · `CTest` · `Pseudo-terminals`
+
+A systems-programming project that implements quote-aware parsing, environment expansion, aliases, shell functions, pipelines, redirections, command history, signals, and foreground/background job control.
+
+- **Clear execution boundary:** commands are fully parsed into `ParsedPipeline` data before execution mutates process, descriptor, or job state.
+- **Unix process control:** concurrent pipeline stages share process groups, foreground jobs receive terminal signals, and `jobs`, `fg`, and `bg` manage background work.
+- **Careful resource handling:** ordered redirections support file-descriptor duplication and closure, while parent-side changes are applied transactionally and restored afterward.
+- **Terminal-level testing:** CTest covers parsing and exit behavior, while pseudo-terminal integration tests exercise signals, process groups, terminal handoff, and job control.
+
+[Explore the repository →](https://github.com/Yosf96633/shell)
 
 ### [AutoHunt](https://github.com/Yosf96633/Autohunt)
 
@@ -89,11 +106,26 @@ A document analysis assistant with **separate ingestion and RAG chat workflows**
 ## `$ cat ~/.config/stack.toml`
 
 <p align="center">
+  <a href="https://www.linux.org/"><img src=".github/assets/stack/linux.svg" width="42" height="42" alt="Linux" title="Linux"></a>&nbsp;
+  <a href="https://isocpp.org/"><img src=".github/assets/stack/cplusplus.svg" width="42" height="42" alt="C++" title="C++"></a>&nbsp;
+  <a href="https://www.rust-lang.org/"><img src=".github/assets/stack/rust.svg" width="42" height="42" alt="Rust" title="Rust"></a>&nbsp;
+  <a href="https://www.docker.com/"><img src=".github/assets/stack/docker.svg" width="42" height="42" alt="Docker" title="Docker"></a>&nbsp;
+  <a href="https://git-scm.com/"><img src=".github/assets/stack/git.svg" width="42" height="42" alt="Git" title="Git"></a>
+</p>
+
+<p align="center">
+  <a href="https://www.langchain.com/langgraph"><img src=".github/assets/stack/langgraph.svg" width="42" height="42" alt="LangGraph" title="LangGraph"></a>&nbsp;
+  <a href="https://www.langchain.com/"><img src=".github/assets/stack/langchain.svg" width="42" height="42" alt="LangChain" title="LangChain"></a>&nbsp;
+  <a href="https://qdrant.tech/"><img src=".github/assets/stack/qdrant.svg" width="42" height="42" alt="Qdrant" title="Qdrant"></a>&nbsp;
+  <a href="https://cohere.com/"><img src=".github/assets/stack/cohere.png" width="42" height="42" alt="Cohere" title="Cohere"></a>&nbsp;
+  <a href="https://n8n.io/"><img src=".github/assets/stack/n8n.svg" width="42" height="42" alt="n8n" title="n8n"></a>&nbsp;
+  <a href="https://modelcontextprotocol.io/"><img src=".github/assets/stack/modelcontextprotocol.svg" width="42" height="42" alt="Model Context Protocol" title="Model Context Protocol"></a>
+</p>
+
+<p align="center">
   <a href="https://www.typescriptlang.org/"><img src=".github/assets/stack/typescript.svg" width="42" height="42" alt="TypeScript" title="TypeScript"></a>&nbsp;
   <a href="https://www.python.org/"><img src=".github/assets/stack/python.svg" width="42" height="42" alt="Python" title="Python"></a>&nbsp;
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src=".github/assets/stack/javascript.svg" width="42" height="42" alt="JavaScript" title="JavaScript"></a>&nbsp;
-  <a href="https://isocpp.org/"><img src=".github/assets/stack/cplusplus.svg" width="42" height="42" alt="C++" title="C++"></a>&nbsp;
-  <a href="https://www.rust-lang.org/"><img src=".github/assets/stack/rust.svg" width="42" height="42" alt="Rust" title="Rust"></a>
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src=".github/assets/stack/javascript.svg" width="42" height="42" alt="JavaScript" title="JavaScript"></a>
 </p>
 
 <p align="center">
@@ -116,17 +148,8 @@ A document analysis assistant with **separate ingestion and RAG chat workflows**
   <a href="https://www.postgresql.org/"><img src=".github/assets/stack/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL"></a>&nbsp;
   <a href="https://www.mongodb.com/"><img src=".github/assets/stack/mongodb.svg" width="42" height="42" alt="MongoDB" title="MongoDB"></a>&nbsp;
   <a href="https://redis.io/"><img src=".github/assets/stack/redis.svg" width="42" height="42" alt="Redis" title="Redis"></a>&nbsp;
-  <a href="https://qdrant.tech/"><img src=".github/assets/stack/qdrant.svg" width="42" height="42" alt="Qdrant" title="Qdrant"></a>&nbsp;
   <a href="https://orm.drizzle.team/"><img src=".github/assets/stack/drizzle.svg" width="42" height="42" alt="Drizzle ORM" title="Drizzle ORM"></a>&nbsp;
   <a href="https://mongoosejs.com/"><img src=".github/assets/stack/mongoose.svg" width="42" height="42" alt="Mongoose" title="Mongoose"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.langchain.com/"><img src=".github/assets/stack/langchain.svg" width="42" height="42" alt="LangChain" title="LangChain"></a>&nbsp;
-  <a href="https://www.langchain.com/langgraph"><img src=".github/assets/stack/langgraph.svg" width="42" height="42" alt="LangGraph" title="LangGraph"></a>&nbsp;
-  <a href="https://cohere.com/"><img src=".github/assets/stack/cohere.png" width="42" height="42" alt="Cohere" title="Cohere"></a>&nbsp;
-  <a href="https://n8n.io/"><img src=".github/assets/stack/n8n.svg" width="42" height="42" alt="n8n" title="n8n"></a>&nbsp;
-  <a href="https://modelcontextprotocol.io/"><img src=".github/assets/stack/modelcontextprotocol.svg" width="42" height="42" alt="Model Context Protocol" title="Model Context Protocol"></a>
 </p>
 
 <p align="center">
@@ -137,9 +160,6 @@ A document analysis assistant with **separate ingestion and RAG chat workflows**
 </p>
 
 <p align="center">
-  <a href="https://www.linux.org/"><img src=".github/assets/stack/linux.svg" width="42" height="42" alt="Linux" title="Linux"></a>&nbsp;
-  <a href="https://www.docker.com/"><img src=".github/assets/stack/docker.svg" width="42" height="42" alt="Docker" title="Docker"></a>&nbsp;
-  <a href="https://git-scm.com/"><img src=".github/assets/stack/git.svg" width="42" height="42" alt="Git" title="Git"></a>&nbsp;
   <a href="https://vercel.com/"><img src=".github/assets/stack/vercel.svg" width="42" height="42" alt="Vercel" title="Vercel"></a>&nbsp;
   <a href="https://render.com/"><img src=".github/assets/stack/render.svg" width="42" height="42" alt="Render" title="Render"></a>&nbsp;
   <a href="https://playwright.dev/"><img src=".github/assets/stack/playwright.svg" width="42" height="42" alt="Playwright" title="Playwright"></a>
@@ -204,11 +224,11 @@ I'm going deeper into the parts that make these systems dependable:
 
 **Let's build something useful.**
 
-For full-stack development, AI workflows, or document retrieval projects, get in touch:
+For Linux systems, agentic AI, or full-stack projects, get in touch:
 
 [Email](mailto:yousaf.dev18@gmail.com) · [LinkedIn](https://linkedin.com/in/yousaf-dev18/) · [Portfolio](https://yousaf-dev18.vercel.app/)
 
 <picture>
   <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/footer.svg">
-  <img src=".github/assets/footer.gif" width="480" alt="yousaf@github: ./contact --human — Connection kept alive.">
+  <img src=".github/assets/footer.gif" width="480" alt="Terminal contact prompt: ./contact --human — Connection kept alive.">
 </picture>
