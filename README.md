@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Yosf96633/shell">myShell</a> &nbsp; / &nbsp;
+  <a href="https://github.com/Yosf96633/myshell">myShell</a> &nbsp; / &nbsp;
   <a href="https://github.com/Yosf96633/Autohunt">AutoHunt</a> &nbsp; / &nbsp;
   <a href="https://github.com/Yosf96633/DocsAI">DocsAI</a> &nbsp; / &nbsp;
   <a href="https://yousaf-dev18.vercel.app/">Portfolio</a> &nbsp; / &nbsp;
@@ -45,7 +45,7 @@ approach = ["Process control", "Explicit state", "Traceable answers"]
 
 ## `$ ls ~/projects`
 
-### [myShell](https://github.com/Yosf96633/shell)
+### [myShell](https://github.com/Yosf96633/myshell)
 
 **A Unix-like shell built from the parser to the controlling terminal.**
 
@@ -58,7 +58,7 @@ A systems-programming project that implements quote-aware parsing, environment e
 - **Careful resource handling:** ordered redirections support file-descriptor duplication and closure, while parent-side changes are applied transactionally and restored afterward.
 - **Terminal-level testing:** CTest covers parsing and exit behavior, while pseudo-terminal integration tests exercise signals, process groups, terminal handoff, and job control.
 
-[Explore the repository →](https://github.com/Yosf96633/shell)
+[Explore the repository →](https://github.com/Yosf96633/myshell)
 
 ### [AutoHunt](https://github.com/Yosf96633/Autohunt)
 

@@ -73,7 +73,7 @@ Navigation destinations:
 - https://github.com/Yosf96633?tab=repositories
 - https://github.com/Yosf96633/Autohunt
 - https://github.com/Yosf96633/DocsAI
-- https://github.com/Yosf96633/shell
+- https://github.com/Yosf96633/myshell
 - https://linkedin.com/in/yousaf-dev18/
 - https://yousaf-dev18.vercel.app/
 - mailto:yousaf.dev18@gmail.com
