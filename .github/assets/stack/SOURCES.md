@@ -1,6 +1,6 @@
 # Stack icon sources
 
-Updated on 2026-09-21.
+Updated on 2026-09-28.
 
 The README uses original logo shapes and upstream colors. Icons are grouped into centered rows and displayed at 42 pixels high. Monochrome marks use neutral contrast tiles for readability in both GitHub themes; their original artwork is unchanged.
 
@@ -8,6 +8,7 @@ The README uses original logo shapes and upstream colors. Icons are grouped into
 
 These are the `original` SVG variants from [Devicon](https://github.com/devicons/devicon). A copy of its MIT license is included in `DEVICON-LICENSE.txt`.
 
+- [bash](https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg)
 - [cplusplus](https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg)
 - [docker](https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg)
 - [express](https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg)
@@ -20,6 +21,7 @@ These are the `original` SVG variants from [Devicon](https://github.com/devicons
 - [nextjs](https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg)
 - [nodejs](https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg)
 - [postgresql](https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg)
+- [prisma](https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg)
 - [python](https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg)
 - [react](https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg)
 - [redis](https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg)

@@ -105,71 +105,74 @@ A document analysis assistant with **separate ingestion and RAG chat workflows**
 
 ## `$ cat ~/.config/stack.toml`
 
-<p align="center">
-  <a href="https://www.linux.org/"><img src=".github/assets/stack/linux.svg" width="42" height="42" alt="Linux" title="Linux"></a>&nbsp;
-  <a href="https://isocpp.org/"><img src=".github/assets/stack/cplusplus.svg" width="42" height="42" alt="C++" title="C++"></a>&nbsp;
-  <a href="https://www.rust-lang.org/"><img src=".github/assets/stack/rust.svg" width="42" height="42" alt="Rust" title="Rust"></a>&nbsp;
-  <a href="https://www.docker.com/"><img src=".github/assets/stack/docker.svg" width="42" height="42" alt="Docker" title="Docker"></a>&nbsp;
-  <a href="https://git-scm.com/"><img src=".github/assets/stack/git.svg" width="42" height="42" alt="Git" title="Git"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.langchain.com/langgraph"><img src=".github/assets/stack/langgraph.svg" width="42" height="42" alt="LangGraph" title="LangGraph"></a>&nbsp;
-  <a href="https://www.langchain.com/"><img src=".github/assets/stack/langchain.svg" width="42" height="42" alt="LangChain" title="LangChain"></a>&nbsp;
-  <a href="https://qdrant.tech/"><img src=".github/assets/stack/qdrant.svg" width="42" height="42" alt="Qdrant" title="Qdrant"></a>&nbsp;
-  <a href="https://cohere.com/"><img src=".github/assets/stack/cohere.png" width="42" height="42" alt="Cohere" title="Cohere"></a>&nbsp;
-  <a href="https://n8n.io/"><img src=".github/assets/stack/n8n.svg" width="42" height="42" alt="n8n" title="n8n"></a>&nbsp;
-  <a href="https://modelcontextprotocol.io/"><img src=".github/assets/stack/modelcontextprotocol.svg" width="42" height="42" alt="Model Context Protocol" title="Model Context Protocol"></a>
-</p>
-
+<!-- Programming languages -->
 <p align="center">
   <a href="https://www.typescriptlang.org/"><img src=".github/assets/stack/typescript.svg" width="42" height="42" alt="TypeScript" title="TypeScript"></a>&nbsp;
+  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src=".github/assets/stack/javascript.svg" width="42" height="42" alt="JavaScript" title="JavaScript"></a>&nbsp;
   <a href="https://www.python.org/"><img src=".github/assets/stack/python.svg" width="42" height="42" alt="Python" title="Python"></a>&nbsp;
-  <a href="https://developer.mozilla.org/docs/Web/JavaScript"><img src=".github/assets/stack/javascript.svg" width="42" height="42" alt="JavaScript" title="JavaScript"></a>
+  <a href="https://isocpp.org/"><img src=".github/assets/stack/cplusplus.svg" width="42" height="42" alt="C++" title="C++"></a>&nbsp;
+  <a href="https://www.rust-lang.org/"><img src=".github/assets/stack/rust.svg" width="42" height="42" alt="Rust" title="Rust"></a>&nbsp;
+  <a href="https://www.gnu.org/software/bash/"><img src=".github/assets/stack/bash.svg" width="42" height="42" alt="Bash" title="Bash"></a>
 </p>
 
+<!-- Frontend frameworks and tools -->
 <p align="center">
-  <a href="https://nextjs.org/"><img src=".github/assets/stack/nextjs.svg" width="42" height="42" alt="Next.js" title="Next.js"></a>&nbsp;
   <a href="https://react.dev/"><img src=".github/assets/stack/react.svg" width="42" height="42" alt="React" title="React"></a>&nbsp;
+  <a href="https://nextjs.org/"><img src=".github/assets/stack/nextjs.svg" width="42" height="42" alt="Next.js" title="Next.js"></a>&nbsp;
+  <a href="https://tailwindcss.com/"><img src=".github/assets/stack/tailwindcss.svg" width="42" height="42" alt="Tailwind CSS" title="Tailwind CSS"></a>&nbsp;
+  <a href="https://ui.shadcn.com/"><img src=".github/assets/stack/shadcnui.svg" width="42" height="42" alt="shadcn/ui" title="shadcn/ui"></a>&nbsp;
   <a href="https://redux.js.org/"><img src=".github/assets/stack/redux.svg" width="42" height="42" alt="Redux" title="Redux"></a>&nbsp;
   <a href="https://zustand-demo.pmnd.rs/"><img src=".github/assets/stack/zustand.png" width="42" height="42" alt="Zustand" title="Zustand"></a>&nbsp;
-  <a href="https://tailwindcss.com/"><img src=".github/assets/stack/tailwindcss.svg" width="42" height="42" alt="Tailwind CSS" title="Tailwind CSS"></a>&nbsp;
-  <a href="https://ui.shadcn.com/"><img src=".github/assets/stack/shadcnui.svg" width="42" height="42" alt="shadcn/ui" title="shadcn/ui"></a>
+  <a href="https://playwright.dev/"><img src=".github/assets/stack/playwright.svg" width="42" height="42" alt="Playwright" title="Playwright"></a>
 </p>
 
+<!-- Backend frameworks and tools -->
 <p align="center">
+  <a href="https://nodejs.org/"><img src=".github/assets/stack/nodejs.svg" width="42" height="42" alt="Node.js" title="Node.js"></a>&nbsp;
+  <a href="https://expressjs.com/"><img src=".github/assets/stack/express.svg" width="42" height="42" alt="Express" title="Express"></a>&nbsp;
   <a href="https://nestjs.com/"><img src=".github/assets/stack/nestjs.svg" width="42" height="42" alt="NestJS" title="NestJS"></a>&nbsp;
   <a href="https://fastapi.tiangolo.com/"><img src=".github/assets/stack/fastapi.svg" width="42" height="42" alt="FastAPI" title="FastAPI"></a>&nbsp;
-  <a href="https://nodejs.org/"><img src=".github/assets/stack/nodejs.svg" width="42" height="42" alt="Node.js" title="Node.js"></a>&nbsp;
-  <a href="https://expressjs.com/"><img src=".github/assets/stack/express.svg" width="42" height="42" alt="Express" title="Express"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.postgresql.org/"><img src=".github/assets/stack/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL"></a>&nbsp;
-  <a href="https://www.mongodb.com/"><img src=".github/assets/stack/mongodb.svg" width="42" height="42" alt="MongoDB" title="MongoDB"></a>&nbsp;
-  <a href="https://redis.io/"><img src=".github/assets/stack/redis.svg" width="42" height="42" alt="Redis" title="Redis"></a>&nbsp;
-  <a href="https://orm.drizzle.team/"><img src=".github/assets/stack/drizzle.svg" width="42" height="42" alt="Drizzle ORM" title="Drizzle ORM"></a>&nbsp;
-  <a href="https://mongoosejs.com/"><img src=".github/assets/stack/mongoose.svg" width="42" height="42" alt="Mongoose" title="Mongoose"></a>
-</p>
-
-<p align="center">
   <a href="https://www.better-auth.com/"><img src=".github/assets/stack/betterauth.svg" width="42" height="42" alt="Better Auth" title="Better Auth"></a>&nbsp;
   <a href="https://authjs.dev/"><img src=".github/assets/stack/authjs.png" width="42" height="42" alt="Auth.js" title="Auth.js"></a>&nbsp;
   <a href="https://jwt.io/"><img src=".github/assets/stack/jsonwebtokens.svg" width="42" height="42" alt="JSON Web Tokens" title="JSON Web Tokens"></a>&nbsp;
   <a href="https://zod.dev/"><img src=".github/assets/stack/zod.svg" width="42" height="42" alt="Zod" title="Zod"></a>
 </p>
 
+<!-- Databases and ORMs -->
 <p align="center">
-  <a href="https://vercel.com/"><img src=".github/assets/stack/vercel.svg" width="42" height="42" alt="Vercel" title="Vercel"></a>&nbsp;
-  <a href="https://render.com/"><img src=".github/assets/stack/render.svg" width="42" height="42" alt="Render" title="Render"></a>&nbsp;
-  <a href="https://playwright.dev/"><img src=".github/assets/stack/playwright.svg" width="42" height="42" alt="Playwright" title="Playwright"></a>
+  <a href="https://www.postgresql.org/"><img src=".github/assets/stack/postgresql.svg" width="42" height="42" alt="PostgreSQL" title="PostgreSQL"></a>&nbsp;
+  <a href="https://www.mongodb.com/"><img src=".github/assets/stack/mongodb.svg" width="42" height="42" alt="MongoDB" title="MongoDB"></a>&nbsp;
+  <a href="https://redis.io/"><img src=".github/assets/stack/redis.svg" width="42" height="42" alt="Redis" title="Redis"></a>&nbsp;
+  <a href="https://qdrant.tech/"><img src=".github/assets/stack/qdrant.svg" width="42" height="42" alt="Qdrant" title="Qdrant"></a>&nbsp;
+  <a href="https://www.prisma.io/"><img src=".github/assets/stack/prisma.svg" width="42" height="42" alt="Prisma ORM" title="Prisma ORM"></a>&nbsp;
+  <a href="https://orm.drizzle.team/"><img src=".github/assets/stack/drizzle.svg" width="42" height="42" alt="Drizzle ORM" title="Drizzle ORM"></a>&nbsp;
+  <a href="https://mongoosejs.com/"><img src=".github/assets/stack/mongoose.svg" width="42" height="42" alt="Mongoose" title="Mongoose"></a>
 </p>
 
+<!-- Agentic AI -->
 <p align="center">
+  <a href="https://www.langchain.com/"><img src=".github/assets/stack/langchain.svg" width="42" height="42" alt="LangChain" title="LangChain"></a>&nbsp;
+  <a href="https://www.langchain.com/langgraph"><img src=".github/assets/stack/langgraph.svg" width="42" height="42" alt="LangGraph" title="LangGraph"></a>&nbsp;
+  <a href="https://cohere.com/"><img src=".github/assets/stack/cohere.png" width="42" height="42" alt="Cohere" title="Cohere"></a>&nbsp;
+  <a href="https://n8n.io/"><img src=".github/assets/stack/n8n.svg" width="42" height="42" alt="n8n" title="n8n"></a>&nbsp;
+  <a href="https://modelcontextprotocol.io/"><img src=".github/assets/stack/modelcontextprotocol.svg" width="42" height="42" alt="Model Context Protocol" title="Model Context Protocol"></a>
+</p>
+
+<!-- Linux and cybersecurity -->
+<p align="center">
+  <a href="https://www.linux.org/"><img src=".github/assets/stack/linux.svg" width="42" height="42" alt="Linux" title="Linux"></a>&nbsp;
   <a href="https://nmap.org/"><img src=".github/assets/stack/nmap.png" width="42" height="42" alt="Nmap" title="Nmap"></a>&nbsp;
   <a href="https://www.metasploit.com/"><img src=".github/assets/stack/metasploit.png" width="42" height="42" alt="Metasploit" title="Metasploit"></a>&nbsp;
   <a href="https://www.wireshark.org/"><img src=".github/assets/stack/wireshark.png" width="42" height="42" alt="Wireshark" title="Wireshark"></a>&nbsp;
   <a href="https://portswigger.net/burp"><img src=".github/assets/stack/burpsuite.svg" width="42" height="42" alt="Burp Suite" title="Burp Suite"></a>
+</p>
+
+<!-- Deployment and tooling -->
+<p align="center">
+  <a href="https://git-scm.com/"><img src=".github/assets/stack/git.svg" width="42" height="42" alt="Git" title="Git"></a>&nbsp;
+  <a href="https://www.docker.com/"><img src=".github/assets/stack/docker.svg" width="42" height="42" alt="Docker" title="Docker"></a>&nbsp;
+  <a href="https://vercel.com/"><img src=".github/assets/stack/vercel.svg" width="42" height="42" alt="Vercel" title="Vercel"></a>&nbsp;
+  <a href="https://render.com/"><img src=".github/assets/stack/render.svg" width="42" height="42" alt="Render" title="Render"></a>
 </p>
 
 ## `$ git log --author="Muhammad Yousaf"`
