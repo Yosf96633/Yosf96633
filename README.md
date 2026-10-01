@@ -177,6 +177,10 @@ A document analysis assistant with **separate ingestion and RAG chat workflows**
 
 ## `$ git log --author="Muhammad Yousaf"`
 
+### `2026-05 → Present` · Self-Employed
+
+**Independent**
+
 ### `2025-10 → 2026-04` · Frontend Developer
 
 **Mozzine Technologies**
