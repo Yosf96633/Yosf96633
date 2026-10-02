@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="179" viewBox="0 0 1200 179" role="img" aria-labelledby="title description">
+<title id="title">PHP Laravel Intern at Hiba Logics</title><desc id="description">2025-05 → 2025-06</desc>
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#151020"/><stop offset=".6" stop-color="#0d0c16"/><stop offset="1" stop-color="#1d102b"/></linearGradient>
+ <linearGradient id="glass" x2=".7" y2="1"><stop stop-color="#291e3b" stop-opacity=".95"/><stop offset="1" stop-color="#100e1b" stop-opacity=".98"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#b66aff" stop-opacity=".18"/><stop offset="1" stop-color="#b66aff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b66aff" stroke-opacity=".07"/></pattern>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect x="1" y="1" width="1198" height="177" rx="14" fill="url(#base)" stroke="#493455" /><circle cx="39" cy="44" r="5" fill="#b66aff" /><text x="57" y="50" fill="#b66aff" font-size="18" font-family="DejaVu Sans Mono, monospace" font-weight="400" >2025-05 → 2025-06</text><text x="30" y="109" fill="#f5f0e9" font-size="35" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" >PHP Laravel Intern</text><text x="32" y="147" fill="#b8afc9" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" >Hiba Logics</text><line x1="644" y1="34" x2="644" y2="144" stroke="#493455" stroke-width="1" /><text x="683" y="72" fill="#b66aff" font-size="17" font-family="DejaVu Sans Mono, monospace" font-weight="400" >~/experience/hiba-logics</text><text x="683" y="117" fill="#b8afc9" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="400" >Laravel / MVC / MySQL</text>
+</svg>

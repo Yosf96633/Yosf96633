@@ -1,8 +1,8 @@
 # Stack icon sources
 
-Updated on 2026-09-28.
+Updated on 2026-10-02.
 
-The README uses original logo shapes and upstream colors. Icons are grouped into centered rows and displayed at 42 pixels high. Monochrome marks use neutral contrast tiles for readability in both GitHub themes; their original artwork is unchanged.
+The README uses original logo shapes and upstream colors. The complete stack is grouped into centered rows and displayed at 48 pixels high; project and experience rows use 34 pixels. Monochrome marks use neutral contrast tiles for readability in both GitHub themes; their original artwork is unchanged.
 
 ## Devicon
 
@@ -65,3 +65,27 @@ The full-color application icons come directly from their official repositories:
 - [Wireshark](https://github.com/wireshark/wireshark/blob/master/resources/icons/wsicon256.png)
 
 These brand assets are separate from the Devicon and Simple Icons licenses. Their marks belong to their respective owners.
+
+
+## Linux Desktop additions · 2026-10-02
+
+All 42 existing icons are retained. These 16 additional logos cover technologies present in the owner's public portfolio, project documentation, and experience. Additional SVGs have contrast tiles; their original paths and colors are preserved. BullMQ keeps its upstream wide aspect ratio.
+
+- [c.svg](https://raw.githubusercontent.com/Yosf96633/new_portfolio/main/public/tech-icons/github-profile/c.svg)
+- [websockets.svg](https://raw.githubusercontent.com/Yosf96633/new_portfolio/main/public/tech-icons/github-profile/websockets.svg)
+- [github.svg](https://raw.githubusercontent.com/Yosf96633/new_portfolio/main/public/tech-icons/github-white.svg)
+- [html5.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg)
+- [css3.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg)
+- [php.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg)
+- [laravel.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg)
+- [mysql.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg)
+- [cmake.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/cmake/cmake-original.svg)
+- [sqlite.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg)
+- [socketio.svg](https://raw.githubusercontent.com/devicons/devicon/master/icons/socketio/socketio-original.svg)
+- [openai.svg](https://raw.githubusercontent.com/simple-icons/simple-icons/15.0.0/icons/openai.svg)
+- [resend.svg](https://cdn.simpleicons.org/resend)
+- [cloudinary.svg](https://cdn.simpleicons.org/cloudinary)
+- [groq.svg](https://groq.com/favicon.svg)
+- [bullmq.png](https://bullmq.io/images/bullmq-logo.png)
+
+The additional Devicon assets use the included MIT license. OpenAI uses Simple Icons v15.0.0 artwork; Resend and Cloudinary use Simple Icons assets. C, WebSockets, and GitHub use the owner's existing portfolio assets. Groq and BullMQ use the official sites' brand assets; their trademarks belong to their respective owners.

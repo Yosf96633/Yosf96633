@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="60" viewBox="0 0 640 60" role="img" aria-labelledby="title description">
+<title id="title">DATABASES &amp; ORMS</title><desc id="description">Technology icons follow this heading.</desc>
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#151020"/><stop offset=".6" stop-color="#0d0c16"/><stop offset="1" stop-color="#1d102b"/></linearGradient>
+ <linearGradient id="glass" x2=".7" y2="1"><stop stop-color="#291e3b" stop-opacity=".95"/><stop offset="1" stop-color="#100e1b" stop-opacity=".98"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#b66aff" stop-opacity=".18"/><stop offset="1" stop-color="#b66aff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b66aff" stroke-opacity=".07"/></pattern>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect x="1" y="1" width="638" height="58" rx="8" fill="url(#base)" stroke="#34263f" /><text x="20" y="37" fill="#b66aff" font-size="16" font-family="DejaVu Sans Mono, monospace" font-weight="400" >04</text><line x1="57" y1="17" x2="57" y2="43" stroke="#50375e" stroke-width="1" /><text x="75" y="37" fill="#f5f0e9" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" letter-spacing="1">DATABASES &amp; ORMS</text><circle cx="616" cy="30" r="3" fill="#b66aff" />
+</svg>

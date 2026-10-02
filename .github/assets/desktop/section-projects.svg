@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="130" viewBox="0 0 1200 130" role="img" aria-labelledby="title description">
+<title id="title">SELECTED BUILDS</title><desc id="description">02 / ~/projects</desc>
+<defs>
+ <linearGradient id="base" x2="1" y2="1"><stop stop-color="#151020"/><stop offset=".6" stop-color="#0d0c16"/><stop offset="1" stop-color="#1d102b"/></linearGradient>
+ <linearGradient id="glass" x2=".7" y2="1"><stop stop-color="#291e3b" stop-opacity=".95"/><stop offset="1" stop-color="#100e1b" stop-opacity=".98"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#b66aff" stop-opacity=".18"/><stop offset="1" stop-color="#b66aff" stop-opacity="0"/></radialGradient>
+ <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#b66aff" stroke-opacity=".07"/></pattern>
+ <filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect x="0" y="0" width="1200" height="130" rx="12" fill="#0d0b16" stroke="none" /><text x="24" y="34" fill="#b8afc9" font-size="14" font-family="DejaVu Sans Mono, monospace" font-weight="400" letter-spacing="2">02 / ~/projects</text><text x="21" y="97" fill="#f5f0e9" font-size="51" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" >SELECTED</text><text x="329" y="97" fill="#b66aff" font-size="51" font-family="DejaVu Sans, Arial, sans-serif" font-weight="700" >BUILDS</text><line x1="568" y1="81" x2="1106" y2="81" stroke="#554268" stroke-width="1" /><rect x="1125" y="75" width="9" height="9" rx="1" fill="#ffa15a" stroke="none" /><rect x="1146" y="75" width="9" height="9" rx="1" fill="#54dcf1" stroke="none" /><rect x="1167" y="75" width="9" height="9" rx="1" fill="#b66aff" stroke="none" />
+</svg>
