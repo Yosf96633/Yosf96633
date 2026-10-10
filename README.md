@@ -3,7 +3,7 @@
 
 <img src=".github/assets/desktop/hero-ubuntu-v3.png" width="1200" alt="Muhammad Yousaf — Linux Systems, Agentic AI, and Full-stack Engineering. A violet Ubuntu-inspired desktop with a geometric penguin, the Ubuntu logo on a glass window, and a mountainous night sky.">
 
-<h1 align="center">Hi, I'm Muhammad Yousaf</h1>
+<h1 align="center">Hey, I'm Muhammad Yousaf</h1>
 
 <p align="center">
   <strong>Linux systems · Agentic AI · Full-stack engineering</strong><br>
@@ -13,7 +13,7 @@
 <p align="center">
   <a href="#profile-about">About</a> &nbsp; / &nbsp;
   <a href="#profile-projects">Projects</a> &nbsp; / &nbsp;
-  <a href="#profile-stack">Tech stack</a> &nbsp; / &nbsp;
+  <a href="#profile-stack">Stack</a> &nbsp; / &nbsp;
   <a href="#profile-experience">Experience</a> &nbsp; / &nbsp;
   <a href="#profile-contact">Contact</a>
 </p>
@@ -57,7 +57,7 @@ approach = ["Process control", "Explicit state", "Traceable answers"]
 
 <h2><img src=".github/assets/desktop/section-projects.svg" width="1200" alt="Selected builds — all five projects"></h2>
 
-From Unix process control to AI workflows, retrieval, and full-stack applications.
+From Unix process control to AI workflows, retrieval, and modern full-stack applications.
 
 <a href="https://github.com/Yosf96633/myshell">
 <picture>
