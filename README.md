@@ -14,7 +14,6 @@
   <a href="#profile-about">About</a> &nbsp; / &nbsp;
   <a href="#profile-projects">Projects</a> &nbsp; / &nbsp;
   <a href="#profile-stack">Stack</a> &nbsp; / &nbsp;
-  <a href="#profile-experience">Experience</a> &nbsp; / &nbsp;
   <a href="#profile-contact">Contact</a>
 </p>
 
@@ -55,7 +54,7 @@ approach = ["Process control", "Explicit state", "Traceable answers"]
 
 <a name="profile-projects"></a>
 
-<h2><img src=".github/assets/desktop/section-projects.svg" width="1200" alt="Selected builds — all five projects"></h2>
+<h2><img src=".github/assets/desktop/section-projects.svg" width="1200" alt="Selected builds — four projects"></h2>
 
 From Unix process control to AI workflows, retrieval, and modern full-stack applications.
 
@@ -288,40 +287,6 @@ An AI-powered platform that analyzes YouTube comments and transcripts to surface
 
 [Live platform →](https://getvidly.com/) · [Backend →](https://github.com/Yosf96633/Vidly_backend) · [Frontend →](https://github.com/Yosf96633/Vidly_frontend)
 
-<a href="https://github.com/Yosf96633/Better_auth_starter">
-<picture>
-  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset=".github/assets/desktop/project-better-auth-mobile-static.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset=".github/assets/desktop/project-better-auth-static.svg">
-  <source media="(max-width: 600px)" srcset=".github/assets/desktop/project-better-auth-mobile.svg">
-  <img src=".github/assets/desktop/project-better-auth.svg" width="1200" alt="Better Auth Starter — OAuth and two-factor authentication">
-</picture>
-</a>
-
-### [Better Auth Starter](https://github.com/Yosf96633/Better_auth_starter)
-
-**Authentication implementation with OAuth and two-factor authentication.**
-
-<p>
-  <a href="https://nextjs.org/"><img src=".github/assets/stack/nextjs.svg" width="34" height="34" alt="Next.js" title="Next.js"></a>&nbsp;
-  <a href="https://react.dev/"><img src=".github/assets/stack/react.svg" width="34" height="34" alt="React" title="React"></a>&nbsp;
-  <a href="https://www.typescriptlang.org/"><img src=".github/assets/stack/typescript.svg" width="34" height="34" alt="TypeScript" title="TypeScript"></a>&nbsp;
-  <a href="https://tailwindcss.com/"><img src=".github/assets/stack/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS"></a>&nbsp;
-  <a href="https://www.better-auth.com/"><img src=".github/assets/stack/betterauth.svg" width="34" height="34" alt="Better Auth" title="Better Auth"></a>&nbsp;
-  <a href="https://www.postgresql.org/"><img src=".github/assets/stack/postgresql.svg" width="34" height="34" alt="PostgreSQL" title="PostgreSQL"></a>&nbsp;
-  <a href="https://orm.drizzle.team/"><img src=".github/assets/stack/drizzle.svg" width="34" height="34" alt="Drizzle ORM" title="Drizzle ORM"></a>&nbsp;
-  <a href="https://zod.dev/"><img src=".github/assets/stack/zod.svg" width="34" height="34" alt="Zod" title="Zod"></a>&nbsp;
-  <a href="https://resend.com/"><img src=".github/assets/stack/resend.svg" width="34" height="34" alt="Resend" title="Resend"></a>
-</p>
-
-A Next.js and Better Auth starter covering sign-in, account management, and transactional email.
-
-- **Sign-in options:** email/password authentication and GitHub/Google OAuth, with email verification and account linking.
-- **Two-factor authentication:** TOTP verification, backup codes, and session management.
-- **Account workflows:** profile updates, password changes and resets, and account deletion.
-- **Data and email:** PostgreSQL with Drizzle ORM, Zod validation, and Resend/React Email templates.
-
-[Explore the repository →](https://github.com/Yosf96633/Better_auth_starter)
-
 [Browse all repositories →](https://github.com/Yosf96633?tab=repositories)
 
 <a name="profile-stack"></a>
@@ -442,104 +407,11 @@ A Next.js and Better Auth starter covering sign-in, account management, and tran
   <a href="https://render.com/"><img src=".github/assets/stack/render.svg" width="48" height="48" alt="Render" title="Render"></a>
 </p>
 
-<a name="profile-experience"></a>
-
-<h2><img src=".github/assets/desktop/section-experience.svg" width="1200" alt="Work experience"></h2>
-
-<picture>
-  <source media="(max-width: 600px)" srcset=".github/assets/desktop/experience-independent-mobile.svg">
-  <img src=".github/assets/desktop/experience-independent.svg" width="1200" alt="Self-Employed · Independent · May 2026 to present">
-</picture>
-
-### `2026-05 → Present` · Self-Employed
-
-**Independent**
-
-<picture>
-  <source media="(max-width: 600px)" srcset=".github/assets/desktop/experience-mozzine-mobile.svg">
-  <img src=".github/assets/desktop/experience-mozzine.svg" width="1200" alt="Frontend Developer · Mozzine Technologies · October 2025 to April 2026">
-</picture>
-
-### `2025-10 → 2026-04` · Frontend Developer
-
-**Mozzine Technologies**
-
-- Developed B2B SaaS dashboard features with Next.js, TypeScript, and Tailwind CSS.
-- Translated **20+ Figma designs** into responsive components with shadcn/ui, maintaining consistency across desktop and mobile.
-- Integrated REST APIs with Redux and Zustand, and resolved UI bugs across browsers and dashboard modules.
-
-<p>
-  <a href="https://nextjs.org/"><img src=".github/assets/stack/nextjs.svg" width="34" height="34" alt="Next.js" title="Next.js"></a>&nbsp;
-  <a href="https://www.typescriptlang.org/"><img src=".github/assets/stack/typescript.svg" width="34" height="34" alt="TypeScript" title="TypeScript"></a>&nbsp;
-  <a href="https://tailwindcss.com/"><img src=".github/assets/stack/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS"></a>&nbsp;
-  <a href="https://ui.shadcn.com/"><img src=".github/assets/stack/shadcnui.svg" width="34" height="34" alt="shadcn/ui" title="shadcn/ui"></a>&nbsp;
-  <a href="https://redux.js.org/"><img src=".github/assets/stack/redux.svg" width="34" height="34" alt="Redux" title="Redux"></a>&nbsp;
-  <a href="https://zustand-demo.pmnd.rs/"><img src=".github/assets/stack/zustand.png" width="34" height="34" alt="Zustand" title="Zustand"></a>
-</p>
-
-<picture>
-  <source media="(max-width: 600px)" srcset=".github/assets/desktop/experience-code-expert-mobile.svg">
-  <img src=".github/assets/desktop/experience-code-expert.svg" width="1200" alt="Full Stack Intern · Code Expert · July to September 2025">
-</picture>
-
-### `2025-07 → 2025-09` · Full Stack Intern
-
-**Code Expert**
-
-- Developed a multi-vendor e-commerce platform with **2 role-based dashboards** for food and gift product modules.
-- Built **15+ REST API endpoints** for orders, products, and vendor operations, with shared MongoDB schemas and validation middleware.
-- Improved database query response times by **40%** using Mongoose lean queries, projections, and compound indexes.
-- Implemented NextAuth.js authentication, JWT sessions, role-based access, and transactional emails through Resend.
-
-<p>
-  <a href="https://nextjs.org/"><img src=".github/assets/stack/nextjs.svg" width="34" height="34" alt="Next.js" title="Next.js"></a>&nbsp;
-  <a href="https://expressjs.com/"><img src=".github/assets/stack/express.svg" width="34" height="34" alt="Express" title="Express"></a>&nbsp;
-  <a href="https://nodejs.org/"><img src=".github/assets/stack/nodejs.svg" width="34" height="34" alt="Node.js" title="Node.js"></a>&nbsp;
-  <a href="https://tailwindcss.com/"><img src=".github/assets/stack/tailwindcss.svg" width="34" height="34" alt="Tailwind CSS" title="Tailwind CSS"></a>&nbsp;
-  <a href="https://www.mongodb.com/"><img src=".github/assets/stack/mongodb.svg" width="34" height="34" alt="MongoDB" title="MongoDB"></a>&nbsp;
-  <a href="https://mongoosejs.com/"><img src=".github/assets/stack/mongoose.svg" width="34" height="34" alt="Mongoose" title="Mongoose"></a>&nbsp;
-  <a href="https://authjs.dev/"><img src=".github/assets/stack/authjs.png" width="34" height="34" alt="Auth.js" title="Auth.js"></a>&nbsp;
-  <a href="https://jwt.io/"><img src=".github/assets/stack/jsonwebtokens.svg" width="34" height="34" alt="JSON Web Tokens" title="JSON Web Tokens"></a>&nbsp;
-  <a href="https://resend.com/"><img src=".github/assets/stack/resend.svg" width="34" height="34" alt="Resend" title="Resend"></a>
-</p>
-
-<picture>
-  <source media="(max-width: 600px)" srcset=".github/assets/desktop/experience-hiba-logics-mobile.svg">
-  <img src=".github/assets/desktop/experience-hiba-logics.svg" width="1200" alt="PHP Laravel Intern · Hiba Logics · May to June 2025">
-</picture>
-
-### `2025-05 → 2025-06` · PHP Laravel Intern
-
-**Hiba Logics**
-
-- Applied Laravel routing, controllers, Eloquent ORM, and Blade templates in backend development.
-- Built server-side logic and database interactions using the Model–View–Controller pattern.
-- Worked with MySQL queries, migrations, and Laravel's schema builder.
-- Collaborated with senior developers, participated in code reviews, and followed team development practices.
-
-<p>
-  <a href="https://www.php.net/"><img src=".github/assets/stack/php.svg" width="34" height="34" alt="PHP" title="PHP"></a>&nbsp;
-  <a href="https://laravel.com/"><img src=".github/assets/stack/laravel.svg" width="34" height="34" alt="Laravel" title="Laravel"></a>&nbsp;
-  <a href="https://www.mysql.com/"><img src=".github/assets/stack/mysql.svg" width="34" height="34" alt="MySQL" title="MySQL"></a>&nbsp;
-  <a href="https://git-scm.com/"><img src=".github/assets/stack/git.svg" width="34" height="34" alt="Git" title="Git"></a>
-</p>
-
 <a name="profile-education"></a>
 
 <h2><img src=".github/assets/desktop/section-education.svg" width="1200" alt="Education"></h2>
 
 **BS Computer Science** · Government College University Faisalabad · 2021–2025
-
-<a name="profile-notes"></a>
-
-<h2><img src=".github/assets/desktop/section-notes.svg" width="1200" alt="Engineering notes"></h2>
-
-I'm going deeper into the parts that make these systems dependable:
-
-- **Agent design:** explicit state, conditional routing, persistence, and human review.
-- **Retrieval:** hybrid search, reranking, and evaluation against source documents.
-- **Backend architecture:** clear boundaries, authentication, and authorization.
-- **Linux fundamentals:** processes, permissions, services, and how software runs underneath the framework.
 
 <a name="profile-activity"></a>
 
