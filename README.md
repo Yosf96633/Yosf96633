@@ -407,12 +407,6 @@ An AI-powered platform that analyzes YouTube comments and transcripts to surface
   <a href="https://render.com/"><img src=".github/assets/stack/render.svg" width="48" height="48" alt="Render" title="Render"></a>
 </p>
 
-<a name="profile-education"></a>
-
-<h2><img src=".github/assets/desktop/section-education.svg" width="1200" alt="Education"></h2>
-
-**BS Computer Science** · Government College University Faisalabad · 2021–2025
-
 <a name="profile-activity"></a>
 
 <h2><img src=".github/assets/desktop/section-activity.svg" width="1200" alt="Open source and GitHub activity"></h2>

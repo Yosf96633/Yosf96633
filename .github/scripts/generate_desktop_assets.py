@@ -26,7 +26,6 @@ PROJECTS = [
     ("autohunt", "AutoHunt", "From CV to a reviewed job application.", "AGENTIC AI", CYAN),
     ("docsai", "DocsAI", "Document answers you can trace.", "RETRIEVAL", VIOLET),
     ("vidspire", "Vidspire / Vidly", "Understand the conversation around a video.", "SENTIMENT", ORANGE),
-    ("better-auth", "Better Auth Starter", "OAuth, sessions, and two-factor authentication.", "AUTHENTICATION", VIOLET),
 ]
 
 
@@ -126,19 +125,6 @@ def diagram(slug, accent):
             s += rect(299, y, 148, 13, "#281d35", "none", 5)
             s += rect(299, y, width, 13, c, "none", 5)
         s += text(106, 250, "video / comments / sentiment", 13, MUTED, mono=True)
-    else:
-        s += '<path d="M277 92 339 115V166C339 205 309 230 277 246 245 230 215 205 215 166V115Z" fill="#2d1b44" stroke="#b66aff" stroke-width="2"/>'
-        s += rect(252, 160, 50, 40, "#b66aff", "none", 6)
-        s += '<path d="M260 161V144A17 17 0 0 1 294 144V161" fill="none" stroke="#f5f0e9" stroke-width="4"/>'
-        s += circle(277, 177, 4, BG)
-        s += line(277, 179, 277, 188, BG, 3)
-        s += node(80, 119, "OAuth", CYAN, 95)
-        s += node(366, 119, "TOTP", ORANGE, 95)
-        s += line(175, 137, 215, 137, CYAN)
-        s += line(339, 137, 366, 137, ORANGE)
-        for x in range(86, 168, 16):
-            s += circle(x, 200, 4, CYAN)
-        s += text(359, 209, "sessions", 12, MUTED, mono=True)
     return s
 
 
@@ -169,7 +155,6 @@ def project_cards():
                 "autohunt": "M120 128 L270 104 L415 128 L360 221 L170 221 Z",
                 "docsai": "M173 158 H235 M316 158 H376",
                 "vidspire": "M298 111 H445 M298 155 H390 M298 199 H355",
-                "better-auth": "M176 137 H214 M340 137 H365",
             }[slug]
             motion = f'<g transform="translate({dx},{dy})">'
             for i in range(2):
@@ -184,11 +169,8 @@ def section_headers():
         ("about", "ABOUT", "ME", "01 / ~/profile"),
         ("projects", "SELECTED", "BUILDS", "02 / ~/projects"),
         ("stack", "TECH", "STACK", "03 / ~/.config/stack"),
-        ("experience", "WORK", "EXPERIENCE", "04 / ~/experience"),
-        ("education", "EDUCATION", "", "05 / ~/education"),
-        ("notes", "ENGINEERING", "NOTES", "06 / ~/notes"),
-        ("activity", "OPEN", "SOURCE", "07 / ~/activity"),
-        ("contact", "LET'S", "CONNECT", "08 / ~/contact"),
+        ("activity", "OPEN", "SOURCE", "04 / ~/activity"),
+        ("contact", "LET'S", "CONNECT", "05 / ~/contact"),
     ]
     for slug, first, second, path in headings:
         body = rect(0, 0, 1200, 130, BG, "none", 12)
@@ -229,33 +211,6 @@ def group_headers():
         mobile += text(75, 37, label, 18, FG, bold=True, extra='letter-spacing="1"')
         mobile += circle(616, 30, 3, VIOLET)
         (OUT / f"stack-{slug}-mobile.svg").write_text(svg(mobile, 640, 60, label, "Technology icons follow this heading."))
-
-
-def experience_cards():
-    items = [
-        ("independent", "2026-05 → PRESENT", "Self-Employed", "Independent", VIOLET, "Systems / agents / full-stack"),
-        ("mozzine", "2025-10 → 2026-04", "Frontend Developer", "Mozzine Technologies", CYAN, "B2B SaaS / responsive interfaces"),
-        ("code-expert", "2025-07 → 2025-09", "Full Stack Intern", "Code Expert", ORANGE, "E-commerce / APIs / authentication"),
-        ("hiba-logics", "2025-05 → 2025-06", "PHP Laravel Intern", "Hiba Logics", VIOLET, "Laravel / MVC / MySQL"),
-    ]
-    for slug, date, role, company, accent, focus in items:
-        body = rect(1, 1, 1198, 177, "url(#base)", "#493455", 14)
-        body += circle(39, 44, 5, accent)
-        body += text(57, 50, date, 18, accent, mono=True)
-        body += text(30, 109, role, 35, FG, bold=True)
-        body += text(32, 147, company, 20, MUTED)
-        body += line(644, 34, 644, 144, "#493455", 1)
-        body += text(683, 72, "~/experience/" + slug, 17, accent, mono=True)
-        body += text(683, 117, focus, 18, MUTED)
-        (OUT / f"experience-{slug}.svg").write_text(svg(body, 1200, 179, f"{role} at {company}", date, accent))
-        mobile = rect(1, 1, 638, 218, "url(#base)", "#493455", 14)
-        mobile += circle(29, 36, 4, accent)
-        mobile += text(47, 42, date, 18, accent, mono=True)
-        mobile += text(24, 103, role, 34, FG, bold=True)
-        mobile += text(26, 144, company, 22, MUTED)
-        mobile += line(26, 165, 610, 165, "#493455", 1)
-        mobile += text(26, 197, focus, 17, accent, mono=True)
-        (OUT / f"experience-{slug}-mobile.svg").write_text(svg(mobile, 640, 220, f"{role} at {company}", date, accent))
 
 
 def footer_cards():
@@ -328,10 +283,9 @@ def main():
     project_cards()
     section_headers()
     group_headers()
-    experience_cards()
     footer_cards()
     ribbon()
-    print("Generated animated/static project banners for desktop/mobile, section and stack headers, 4 experience banners, contact cards, and an animated ribbon.")
+    print("Generated animated/static project banners for desktop/mobile, section and stack headers, contact cards, and an animated ribbon.")
 
 
 if __name__ == "__main__":
